@@ -1,0 +1,82 @@
+/* Style file */
+
+@font-face {
+    font-family: selectorFont;
+    src: url(./font/Persona_Aura.otf);
+}
+
+@keyframes AnimateGradient {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 200%;
+  }
+}
+
+body {
+    background: white url('img/noiseTexture.png') repeat left top;
+    animation: AnimateGradient 30s linear infinite;
+}
+
+.charBtn {
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    margin: 4px;
+    padding: 0;
+    height: 64px;
+    width: 64px;
+}
+
+.charBtn > img {
+    filter: grayscale(1);
+}
+
+.charBtn > img:hover, .charBtn > img:active {
+    filter: grayscale(0);
+}
+
+#container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(166, 25, 25, 0.85) 36%, rgba(65, 34, 179, 0.85) 64%);
+}
+
+#charDisplay {
+    position: relative;
+    height: calc(75% - 16px);
+    margin: 0;
+    padding: 8px;
+    text-align: center;
+}
+
+#selector {
+    height: calc(25% - 16px);
+    margin: 0;
+    padding: 8px;    
+}
+
+#charPortrait {
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#charName {
+    position: inherit;
+    font-family: selectorFont;
+    background: linear-gradient(90deg,rgb(209, 171, 245) 0%, rgb(163, 225, 230) 100%);
+    background-clip: text;
+    color: transparent;
+    font-size: 56px;
+    margin: -64px 16px 0;
+    z-index: 2;
+}
