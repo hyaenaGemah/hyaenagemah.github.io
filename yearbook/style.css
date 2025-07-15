@@ -15,8 +15,8 @@
 }
 
 body {
-    background: white url('img/noiseTexture.png') repeat left top;
-    animation: AnimateGradient 30s linear infinite;
+    background: white url('img/paperTexture.jpg') repeat left top;
+    animation: AnimateGradient 60s linear infinite;
 }
 
 .charBtn {
@@ -37,6 +37,12 @@ body {
     filter: grayscale(0);
 }
 
+.halfWidth {
+    width: 50%;
+    padding: 0;
+    margin: 0;
+}
+
 #container {
     position: fixed;
     top: 0;
@@ -45,7 +51,7 @@ body {
     padding: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, rgba(166, 25, 25, 0.85) 36%, rgba(65, 34, 179, 0.85) 64%);
+    background: linear-gradient(90deg, rgba(250, 247, 213, 0.85) 36%, rgba(222, 215, 248, 0.85) 64%);
 }
 
 #charDisplay {
@@ -54,6 +60,11 @@ body {
     margin: 0;
     padding: 8px;
     text-align: center;
+    display: flex;
+}
+
+#charDetails {
+    text-align: right;
 }
 
 #selector {
@@ -66,17 +77,27 @@ body {
     display: block;
     max-height: 100%;
     max-width: 100%;
-    margin-left: auto;
+    margin-left: 8%;
     margin-right: auto;
 }
 
 #charName {
     position: inherit;
     font-family: selectorFont;
-    background: linear-gradient(90deg,rgb(209, 171, 245) 0%, rgb(163, 225, 230) 100%);
+    background: linear-gradient(90deg,rgb(23, 136, 102) 0%, rgb(6, 107, 114) 100%);
     background-clip: text;
     color: transparent;
     font-size: 56px;
-    margin: -64px 16px 0;
     z-index: 2;
+}
+
+#charSuperlative {
+    position: inherit;
+    font-family: selectorFont;
+    background: linear-gradient(90deg,rgb(10, 87, 64) 0%, rgb(3, 69, 73) 100%);
+    background-clip: text;
+    color: transparent;
+    font-size: 36px;
+    z-index: 2;
+    padding-left: 24px;
 }

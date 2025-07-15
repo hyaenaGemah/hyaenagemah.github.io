@@ -3,24 +3,33 @@
  * HyaenaGemah 2025 - Based on a tutorial by MooICT: https://www.mooict.com/make-a-character-selection-project-using-html-css-and-javascript/
  */
 
+const bgmList = [
+    "./audio/bgm1.ogg",
+    "./audio/bgm2.ogg"
+];
+
 const characters = [
     {
         name: "King",
+        superlative: "Most likely to chain a suplex after a hug",
         portrait: "./img/char/port_king.webp",
         button: "./img/char/sel_king.webp"
     },
     {
         name: "Parasoul",
+        superlative: "Competitive fighting game star",
         portrait: "./img/char/port_parasoul.webp",
         button: "./img/char/sel_parasoul.webp"
     },
     {
         name: "Josuke Higashikata",
+        superlative: "Feeling freshest after, like christmas morning",
         portrait: "./img/char/port_josuke.png",
         button: "./img/char/sel_josuke.png"
     },
     {
         name: "Lae'zel",
+        superlative: "Put in detention for calling people \"Istik\"",
         portrait: "./img/char/port_laezel.png",
         button: "./img/char/sel_laezel.png"
     }
@@ -41,6 +50,7 @@ characters.forEach(char => {
     };
     btn.onclick = () => {
         document.getElementById("charName").innerHTML = char.name;
+        document.getElementById("charSuperlative").innerHTML = char.superlative;
         const port = document.getElementById("charPortrait");
         port.src = char.portrait;
         port.alt = char.name;
@@ -52,5 +62,13 @@ characters.forEach(char => {
     selectContainer.append(btn);
 });
 
-const bgm = document.getElementById("bgmusic");
-bgm.volume = 0.2;
+const bgmPlayer = document.getElementById("bgmusic");
+bgmPlayer.volume = 0.2;
+bgmPlayer.addEventListener("ended", () => {
+    const nextSong = bgmList.pop();
+    bgmPlayer.pause();
+    bgmPlayer.src = nextSong;
+    bgmPlayer.load();
+    bgmPlayer.play();
+    bgmList.unshift(nextSong);
+});
