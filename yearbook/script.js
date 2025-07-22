@@ -13,19 +13,19 @@ const characters = [
         id: 'hyaenaGemah',
         name: 'Gemah Lazarus Hyaena',
         superlative: '[Insert your superlative here]',
-        portraits: ['portrait.PNG', 'select.jpg'],
+        portraits: ['portrait.webp', 'select.webp'],
         gallery: [
-            { src: './img/char/hyaenaGemah/gallery/202408.png', title: 'Aug 2024 - Pokemon Trade' },
-            { src: './img/char/hyaenaGemah/gallery/202409.png', title: 'Sep 2024 - Mecha Trade' },
+            { src: './img/char/hyaenaGemah/gallery/202408.webp', title: 'Aug 2024 - Pokemon Trade' },
+            { src: './img/char/hyaenaGemah/gallery/202409.webp', title: 'Sep 2024 - Mecha Trade' },
             { src: './img/char/hyaenaGemah/gallery/202410A.gif', title: 'Oct 2024 - Halloween Trade #1' },
             { src: './img/char/hyaenaGemah/gallery/202410B.gif', title: 'Oct 2024 - Halloween Trade #1' },
-            { src: './img/char/hyaenaGemah/gallery/202411.png', title: 'Nov 2024 - Music Albums Trade' },
-            { src: './img/char/hyaenaGemah/gallery/202412.png', title: 'Dec 2024 - Winter Trade' },
-            { src: './img/char/hyaenaGemah/gallery/202501.png', title: 'Jan 2025 - Criminal Activity Trade' },
-            { src: './img/char/hyaenaGemah/gallery/202502.png', title: 'Feb 2025 - Space Trade' },
-            { src: './img/char/hyaenaGemah/gallery/202503.png', title: 'Mar 2025 - Beach Episode Trade' },
-            { src: './img/char/hyaenaGemah/gallery/202504.png', title: 'Apr 2025 - High Fantasy Trade' },
-            { src: './img/char/hyaenaGemah/gallery/202506.png', title: 'Jun 2025 - Sports Trade' }
+            { src: './img/char/hyaenaGemah/gallery/202411.webp', title: 'Nov 2024 - Music Albums Trade' },
+            { src: './img/char/hyaenaGemah/gallery/202412.webp', title: 'Dec 2024 - Winter Trade' },
+            { src: './img/char/hyaenaGemah/gallery/202501.webp', title: 'Jan 2025 - Criminal Activity Trade' },
+            { src: './img/char/hyaenaGemah/gallery/202502.webp', title: 'Feb 2025 - Space Trade' },
+            { src: './img/char/hyaenaGemah/gallery/202503.webp', title: 'Mar 2025 - Beach Episode Trade' },
+            { src: './img/char/hyaenaGemah/gallery/202504.webp', title: 'Apr 2025 - High Fantasy Trade' },
+            { src: './img/char/hyaenaGemah/gallery/202506.webp', title: 'Jun 2025 - Sports Trade' }
         ]
     }
 ];
