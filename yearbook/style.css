@@ -43,6 +43,15 @@ body {
     margin: 0;
 }
 
+.a-picture {
+    text-decoration: none;
+}
+
+.a-picture > img {
+    max-height: 160px;
+    max-width: 160px;
+}
+
 #container {
     position: fixed;
     top: 0;
@@ -70,7 +79,8 @@ body {
 #selector {
     height: calc(25% - 16px);
     margin: 0;
-    padding: 8px;    
+    padding: 8px;
+    border-top: 1px #bbb479 dashed;
 }
 
 #charPortrait {
@@ -100,4 +110,14 @@ body {
     font-size: 36px;
     z-index: 2;
     padding-left: 24px;
+}
+
+#charGallery {
+    display: flex;
+    height: 360px;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 8px;
+    overflow-y: scroll;
 }

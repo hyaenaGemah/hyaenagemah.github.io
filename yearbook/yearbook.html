@@ -7,7 +7,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>The Bronx Zoo's Yearbook - Goodbye, Bronx Zoo High!</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./plugin/simpleLightbox/simpleLightbox.min.css">
         <!-- Font used - Persona Aura: https://www.dafont.com/pt/persona-aura.font -->
+        <!-- Plugin used - Simple Lightbox: https://dbrekalo.github.io/simpleLightbox/ -->
     </head>
     <body>
         <div id="animBg">
@@ -16,10 +18,11 @@
                     <div id="charDetails" class="halfWidth">
                         <div style="position: flex;">
                             <div style="width: 80%;">
-                                <h1 id="charName"></h1>
-                                <h2 id="charSuperlative"></h2>
+                                <h1 id="charName">The Bronx Zoo Yearbook</h1>
+                                <h2 id="charSuperlative">Goodbye, Bronx Zoo High!</h2>
+                                <br/>
                             </div>
-                            <div></div>
+                            <div id="charGallery"></div>
                         </div>
                     </div>
                     <div id="charPhoto" class="halfWidth">
@@ -34,6 +37,7 @@
         <audio id="bgmusic" src="./audio/bgm1.ogg" type="audio/ogg" autoplay></audio>
         <audio id="sfxHover" src="./audio/sfx_hover.ogg" type="audio/ogg"></audio>
         <audio id="sfxClick" src="./audio/sfx_click.ogg" type="audio/ogg"></audio>
+        <script src="./plugin/simpleLightbox/simpleLightbox.min.js"></script>
         <script src="script.js"></script>
     </body>
 </html>
