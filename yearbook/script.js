@@ -30,38 +30,6 @@ const characters = [
         ]
     },
     {
-        id: 'bin',
-        name: 'Bin ',
-        superlative: '[Insert your superlative here]',
-        portraits: ['portrait.webp', 'select.webp'],
-        gallery: [
-            { src: './img/char/bin/gallery/202408.webp',  title: 'Aug 2024 - Pokemon Trade' },
-            { src: './img/char/bin/gallery/202409.webp',  title: 'Sep 2024 - Mecha Trade' },
-            { src: './img/char/bin/gallery/202410.webp',  title: 'Oct 2024 - Halloween Trade' },
-            { src: './img/char/bin/gallery/202410A.webp', title: 'Oct 2024 - Halloween Trade' },
-            { src: './img/char/bin/gallery/202411.webp',  title: 'Nov 2024 - Music Albums Trade' },
-            { src: './img/char/bin/gallery/202412.webp',  title: 'Dec 2024 - Winter Trade' },
-            { src: './img/char/bin/gallery/202501.webp',  title: 'Jan 2025 - Criminal Activity Trade' },
-            { src: './img/char/bin/gallery/202502.webp',  title: 'Feb 2025 - Space Trade' },
-            { src: './img/char/bin/gallery/202504.webp',  title: 'Apr 2025 - High Fantasy Trade' },
-            { src: './img/char/bin/gallery/202505.webp',  title: 'Jun 2025 - TCG Trade' },
-            { src: './img/char/bin/gallery/202505A.webp', title: 'Jun 2025 - TCG Trade' },
-            { src: './img/char/bin/gallery/202506.webp',  title: 'Jun 2025 - Sports Trade' },
-            { src: './img/char/bin/gallery/202506A.webp', title: 'Jun 2025 - Sports Trade' },
-            { src: './img/char/bin/gallery/202506B.webp', title: 'Jun 2025 - Sports Trade' },
-        ]
-    },
-    {
-        id: 'bobba',
-        name: 'Bobba',
-        superlative: '[Insert your superlative here]',
-        portraits: ['portrait.webp', 'select.webp'],
-        gallery: [
-            { src: './img/char/bobba/gallery/202410.webp',  title: 'Oct 2024 - Halloween Trade' },
-            { src: './img/char/bobba/gallery/202411.webp',  title: 'Nov 2024 - Music Albums Trade' }
-        ]
-    },
-    {
         id: 'chimeraMutt',
         name: 'Micah/Jer',
         superlative: '[Insert your superlative here]',
@@ -84,33 +52,6 @@ const characters = [
             { src: './img/char/chimeraMutt/gallery/202505E.webp', title: 'Jun 2025 - TCG Trade' },
             { src: './img/char/chimeraMutt/gallery/202505F.webp', title: 'Jun 2025 - TCG Trade' },
             { src: './img/char/chimeraMutt/gallery/202506.webp',  title: 'Jun 2025 - Sports Trade' },
-        ]
-    },
-    {
-        id: 'chrisTwo',
-        name: 'Chris Two',
-        superlative: '[Insert your superlative here]',
-        portraits: ['portrait.webp', 'select.webp'],
-        gallery: [
-            { src: './img/char/chrisTwo/gallery/202412.webp',  title: 'Dec 2024 - Winter Trade' },
-            { src: './img/char/chrisTwo/gallery/202502.webp',  title: 'Feb 2025 - Space Trade' },
-            { src: './img/char/chrisTwo/gallery/202503.webp',  title: 'Mar 2025 - Beach Episode Trade' }
-        ]
-    },
-    {
-        id: 'cino',
-        name: 'Cino Bear',
-        superlative: '[Insert your superlative here]',
-        portraits: ['portrait.webp', 'select.webp'],
-        gallery: [
-            { src: './img/char/cino/gallery/202409.webp',  title: 'Sep 2024 - Mecha Trade' },
-            { src: './img/char/cino/gallery/202409A.webp', title: 'Sep 2024 - Mecha Trade' },
-            { src: './img/char/cino/gallery/202409B.webp', title: 'Sep 2024 - Mecha Trade' },
-            { src: './img/char/cino/gallery/202409C.gif',  title: 'Sep 2024 - Mecha Trade' },
-            { src: './img/char/cino/gallery/202410.webp',  title: 'Oct 2024 - Halloween Trade' },
-            { src: './img/char/cino/gallery/202411.webp',  title: 'Nov 2024 - Music Albums Trade' },
-            { src: './img/char/cino/gallery/202505.webp',  title: 'Apr 2025 - TCG Trade' },
-            { src: './img/char/cino/gallery/202505A.webp', title: 'Apr 2025 - TCG Trade' }
         ]
     },
     {
@@ -264,16 +205,6 @@ const characters = [
         ]
     },
     {
-        id: 'logan',
-        name: 'Logan',
-        superlative: '[Insert your superlative here]',
-        portraits: ['portrait.webp', 'select.webp'],
-        gallery: [
-            { src: './img/char/logan/gallery/202502.webp',  title: 'Mar 2025 - Beach Episode Trade' },
-            { src: './img/char/logan/gallery/202502A.webp', title: 'Mar 2025 - Beach Episode Trade' }
-        ]
-    },
-    {
         id: 'manny',
         name: 'Manny Marz',
         superlative: '[Insert your superlative here]',
@@ -287,6 +218,28 @@ const characters = [
             { src: './img/char/manny/gallery/202502.webp',  title: 'Feb 2025 - Space Trade' },
             { src: './img/char/manny/gallery/202502A.gif',  title: 'Feb 2025 - Space Trade' },
             { src: './img/char/manny/gallery/202505.webp',  title: 'Apr 2025 - TCG Trade' }
+        ]
+    },
+    {
+        id: 'bin',
+        name: 'Bin ',
+        superlative: '[Insert your superlative here]',
+        portraits: ['portrait.webp', 'select.webp'],
+        gallery: [
+            { src: './img/char/bin/gallery/202408.webp',  title: 'Aug 2024 - Pokemon Trade' },
+            { src: './img/char/bin/gallery/202409.webp',  title: 'Sep 2024 - Mecha Trade' },
+            { src: './img/char/bin/gallery/202410.webp',  title: 'Oct 2024 - Halloween Trade' },
+            { src: './img/char/bin/gallery/202410A.webp', title: 'Oct 2024 - Halloween Trade' },
+            { src: './img/char/bin/gallery/202411.webp',  title: 'Nov 2024 - Music Albums Trade' },
+            { src: './img/char/bin/gallery/202412.webp',  title: 'Dec 2024 - Winter Trade' },
+            { src: './img/char/bin/gallery/202501.webp',  title: 'Jan 2025 - Criminal Activity Trade' },
+            { src: './img/char/bin/gallery/202502.webp',  title: 'Feb 2025 - Space Trade' },
+            { src: './img/char/bin/gallery/202504.webp',  title: 'Apr 2025 - High Fantasy Trade' },
+            { src: './img/char/bin/gallery/202505.webp',  title: 'Jun 2025 - TCG Trade' },
+            { src: './img/char/bin/gallery/202505A.webp', title: 'Jun 2025 - TCG Trade' },
+            { src: './img/char/bin/gallery/202506.webp',  title: 'Jun 2025 - Sports Trade' },
+            { src: './img/char/bin/gallery/202506A.webp', title: 'Jun 2025 - Sports Trade' },
+            { src: './img/char/bin/gallery/202506B.webp', title: 'Jun 2025 - Sports Trade' },
         ]
     },
     {
@@ -304,43 +257,6 @@ const characters = [
             { src: './img/char/marcus/gallery/202505.webp',  title: 'Apr 2025 - TCG Trade' },
             { src: './img/char/marcus/gallery/202505A.webp', title: 'Apr 2025 - TCG Trade' },
             { src: './img/char/marcus/gallery/202506.webp',  title: 'Jun 2025 - Sports Trade' }
-        ]
-    },
-    {
-        id: 'matt',
-        name: 'Matt',
-        superlative: '[Insert your superlative here]',
-        portraits: ['portrait.webp', 'select.webp'],
-        gallery: [
-            { src: './img/char/matt/gallery/202410.webp',  title: 'Oct 2024 - Halloween Trade' },
-            { src: './img/char/matt/gallery/202410A.webp', title: 'Oct 2024 - Halloween Trade' },
-            { src: './img/char/matt/gallery/202411.webp',  title: 'Nov 2024 - Music Albums Trade' },
-            { src: './img/char/matt/gallery/202412.webp',  title: 'Dec 2024 - Winter Trade' },
-            { src: './img/char/matt/gallery/202501.webp',  title: 'Jan 2025 - Criminal Activity Trade' },
-            { src: './img/char/matt/gallery/202502.webp',  title: 'Feb 2025 - Space Trade' }
-        ]
-    },
-    {
-        id: 'mundo',
-        name: 'Raymundo',
-        superlative: '[Insert your superlative here]',
-        portraits: ['portrait.webp', 'select.webp'],
-        gallery: [
-            { src: './img/char/mundo/gallery/202408.webp',  title: 'Aug 2024 - Pokemon Trade' },
-            { src: './img/char/mundo/gallery/202410.webp',  title: 'Oct 2024 - Halloween Trade' },
-            { src: './img/char/mundo/gallery/202410A.webp', title: 'Oct 2024 - Halloween Trade' },
-            { src: './img/char/mundo/gallery/202504.webp',  title: 'Apr 2025 - High Fantasy Trade' },
-            { src: './img/char/mundo/gallery/202504A.webp', title: 'Apr 2025 - High Fantasy Trade' }
-        ]
-    },
-    {
-        id: 'platano',
-        name: 'Platano Gringo',
-        superlative: '[Insert your superlative here]',
-        portraits: ['portrait.webp', 'select.webp'],
-        gallery: [
-            { src: './img/char/platano/gallery/202411.webp', title: 'Nov 2024 - Music Albums Trade' },
-            { src: './img/char/platano/gallery/202412.webp', title: 'Dec 2024 - Winter Trade' }
         ]
     },
     {
@@ -401,20 +317,6 @@ const characters = [
         ]
     },
     {
-        id: 'styx',
-        name: 'Bobbie (Styx)',
-        superlative: '[Insert your superlative here]',
-        portraits: ['portrait.webp', 'select.webp'],
-        gallery: [
-            { src: './img/char/styx/gallery/202408.webp',  title: 'Aug 2024 - Pokemon Trade' },
-            { src: './img/char/styx/gallery/202408A.webp', title: 'Aug 2024 - Pokemon Trade' },
-            { src: './img/char/styx/gallery/202410.gif',   title: 'Oct 2024 - Halloween Trade' },
-            { src: './img/char/styx/gallery/202411.webp',  title: 'Nov 2024 - Music Albums Trade' },
-            { src: './img/char/styx/gallery/202412.webp',  title: 'Dec 2024 - Winter Trade' },
-            { src: './img/char/styx/gallery/202501.webp',  title: 'Jan 2025 - Criminal Activity Trade' }
-        ]
-    },
-    {
         id: 'tato',
         name: 'Tato Gato',
         superlative: '[Insert your superlative here]',
@@ -434,6 +336,107 @@ const characters = [
             { src: './img/char/tato/gallery/202505A.webp', title: 'Apr 2025 - TCG Trade' },
             { src: './img/char/tato/gallery/202505B.webp', title: 'Apr 2025 - TCG Trade' },
             { src: './img/char/tato/gallery/202506.webp',  title: 'Jun 2025 - Sports Trade' }
+        ]
+    },
+    {
+        id: 'separator'
+    },
+    {
+        id: 'bobba',
+        name: 'Bobba',
+        superlative: '[Insert your superlative here]',
+        portraits: ['portrait.webp', 'select.webp'],
+        gallery: [
+            { src: './img/char/bobba/gallery/202410.webp',  title: 'Oct 2024 - Halloween Trade' },
+            { src: './img/char/bobba/gallery/202411.webp',  title: 'Nov 2024 - Music Albums Trade' }
+        ]
+    },
+    {
+        id: 'chrisTwo',
+        name: 'Chris Two',
+        superlative: '[Insert your superlative here]',
+        portraits: ['portrait.webp', 'select.webp'],
+        gallery: [
+            { src: './img/char/chrisTwo/gallery/202412.webp',  title: 'Dec 2024 - Winter Trade' },
+            { src: './img/char/chrisTwo/gallery/202502.webp',  title: 'Feb 2025 - Space Trade' },
+            { src: './img/char/chrisTwo/gallery/202503.webp',  title: 'Mar 2025 - Beach Episode Trade' }
+        ]
+    },
+    {
+        id: 'cino',
+        name: 'Cino Bear',
+        superlative: '[Insert your superlative here]',
+        portraits: ['portrait.webp', 'select.webp'],
+        gallery: [
+            { src: './img/char/cino/gallery/202409.webp',  title: 'Sep 2024 - Mecha Trade' },
+            { src: './img/char/cino/gallery/202409A.webp', title: 'Sep 2024 - Mecha Trade' },
+            { src: './img/char/cino/gallery/202409B.webp', title: 'Sep 2024 - Mecha Trade' },
+            { src: './img/char/cino/gallery/202409C.gif',  title: 'Sep 2024 - Mecha Trade' },
+            { src: './img/char/cino/gallery/202410.webp',  title: 'Oct 2024 - Halloween Trade' },
+            { src: './img/char/cino/gallery/202411.webp',  title: 'Nov 2024 - Music Albums Trade' },
+            { src: './img/char/cino/gallery/202505.webp',  title: 'Apr 2025 - TCG Trade' },
+            { src: './img/char/cino/gallery/202505A.webp', title: 'Apr 2025 - TCG Trade' }
+        ]
+    },
+    {
+        id: 'logan',
+        name: 'Logan (Yado)',
+        superlative: '[Insert your superlative here]',
+        portraits: ['portrait.webp', 'select.webp'],
+        gallery: [
+            { src: './img/char/logan/gallery/202502.webp',  title: 'Mar 2025 - Beach Episode Trade' },
+            { src: './img/char/logan/gallery/202502A.webp', title: 'Mar 2025 - Beach Episode Trade' }
+        ]
+    },
+    {
+        id: 'matt',
+        name: 'Matt',
+        superlative: '[Insert your superlative here]',
+        portraits: ['portrait.webp', 'select.webp'],
+        gallery: [
+            { src: './img/char/matt/gallery/202410.webp',  title: 'Oct 2024 - Halloween Trade' },
+            { src: './img/char/matt/gallery/202410A.webp', title: 'Oct 2024 - Halloween Trade' },
+            { src: './img/char/matt/gallery/202411.webp',  title: 'Nov 2024 - Music Albums Trade' },
+            { src: './img/char/matt/gallery/202412.webp',  title: 'Dec 2024 - Winter Trade' },
+            { src: './img/char/matt/gallery/202501.webp',  title: 'Jan 2025 - Criminal Activity Trade' },
+            { src: './img/char/matt/gallery/202502.webp',  title: 'Feb 2025 - Space Trade' }
+        ]
+    },
+    {
+        id: 'mundo',
+        name: 'Raymundo',
+        superlative: '[Insert your superlative here]',
+        portraits: ['portrait.webp', 'select.webp'],
+        gallery: [
+            { src: './img/char/mundo/gallery/202408.webp',  title: 'Aug 2024 - Pokemon Trade' },
+            { src: './img/char/mundo/gallery/202410.webp',  title: 'Oct 2024 - Halloween Trade' },
+            { src: './img/char/mundo/gallery/202410A.webp', title: 'Oct 2024 - Halloween Trade' },
+            { src: './img/char/mundo/gallery/202504.webp',  title: 'Apr 2025 - High Fantasy Trade' },
+            { src: './img/char/mundo/gallery/202504A.webp', title: 'Apr 2025 - High Fantasy Trade' }
+        ]
+    },
+    {
+        id: 'platano',
+        name: 'Platano Gringo',
+        superlative: '[Insert your superlative here]',
+        portraits: ['portrait.webp', 'select.webp'],
+        gallery: [
+            { src: './img/char/platano/gallery/202411.webp', title: 'Nov 2024 - Music Albums Trade' },
+            { src: './img/char/platano/gallery/202412.webp', title: 'Dec 2024 - Winter Trade' }
+        ]
+    },
+    {
+        id: 'styx',
+        name: 'Bobbie (Styx)',
+        superlative: '[Insert your superlative here]',
+        portraits: ['portrait.webp', 'select.webp'],
+        gallery: [
+            { src: './img/char/styx/gallery/202408.webp',  title: 'Aug 2024 - Pokemon Trade' },
+            { src: './img/char/styx/gallery/202408A.webp', title: 'Aug 2024 - Pokemon Trade' },
+            { src: './img/char/styx/gallery/202410.gif',   title: 'Oct 2024 - Halloween Trade' },
+            { src: './img/char/styx/gallery/202411.webp',  title: 'Nov 2024 - Music Albums Trade' },
+            { src: './img/char/styx/gallery/202412.webp',  title: 'Dec 2024 - Winter Trade' },
+            { src: './img/char/styx/gallery/202501.webp',  title: 'Jan 2025 - Criminal Activity Trade' }
         ]
     },
     {
@@ -465,49 +468,56 @@ const characters = [
         gallery: [
             { src: './img/char/zack/gallery/202503.webp', title: 'Mar 2025 - Beach Episode Trade' }
         ]
-    },
+    }
 ];
 
 const selectContainer = document.getElementById('selector');
 
 characters.forEach(char => {
-    const btn = document.createElement('button');
-    btn.classList.add('charBtn');
-    btn.type = 'button';
-    btn.innerHTML = `<img src="./img/char/${char.id}/${char.portraits[1]}" style="border: none; border-radius: 8px;" height="64" width="64" />`;
-    btn.onmouseenter = () => {
-        const sfxHov = document.getElementById('sfxHover');
-        sfxHov.pause();
-        sfxHov.currentTime = 0;
-        sfxHov.play();
-    };
-    btn.onclick = () => {
-        // Portrait section behavior
-        document.getElementById('charName').innerHTML = char.name;
-        document.getElementById('charSuperlative').innerHTML = char.superlative;
-        const port = document.getElementById('charPortrait');
-        port.src = `./img/char/${char.id}/${char.portraits[0]}`;
-        port.alt = char.name;
+    if (char.id !== 'separator') {
+        const btn = document.createElement('button');
+        btn.classList.add('charBtn');
+        btn.type = 'button';
+        btn.innerHTML = `<img src="./img/char/${char.id}/${char.portraits[1]}" style="border: none; border-radius: 8px;" height="64" width="64" />`;
+        btn.onmouseenter = () => {
+            const sfxHov = document.getElementById('sfxHover');
+            sfxHov.pause();
+            sfxHov.currentTime = 0;
+            sfxHov.play();
+        };
+        btn.onclick = () => {
+            // Portrait section behavior
+            document.getElementById('charName').innerHTML = char.name;
+            document.getElementById('charSuperlative').innerHTML = char.superlative;
+            const port = document.getElementById('charPortrait');
+            port.src = `./img/char/${char.id}/${char.portraits[0]}`;
+            port.alt = char.name;
 
-        // Gallery behavior
-        const gallery = document.getElementById('charGallery');
-        gallery.innerHTML = '';
-        
-        for (let i = 0; i < char.gallery.length; i++) {
-            gallery.innerHTML += `<a class="a-picture" href="${char.gallery[i].src}" title="${char.gallery[i].title}">
-                <img src="${char.gallery[i].src}" alt="${char.gallery[i].title}" />
-            </a>`;
-        }
+            // Gallery behavior
+            const gallery = document.getElementById('charGallery');
+            gallery.innerHTML = '';
+            
+            for (let i = 0; i < char.gallery.length; i++) {
+                gallery.innerHTML += `<a class="a-picture" href="${char.gallery[i].src}" title="${char.gallery[i].title}">
+                    <img src="${char.gallery[i].src}" alt="${char.gallery[i].title}" />
+                </a>`;
+            }
 
-        new SimpleLightbox({elements: '#charGallery a'});
+            new SimpleLightbox({elements: '#charGallery a'});
 
-        // Sound behavior
-        const sfxSel = document.getElementById('sfxClick');
-        sfxSel.pause();
-        sfxSel.currentTime = 0;
-        sfxSel.play();
-    };
-    selectContainer.append(btn);
+            // Sound behavior
+            const sfxSel = document.getElementById('sfxClick');
+            sfxSel.pause();
+            sfxSel.currentTime = 0;
+            sfxSel.play();
+        };
+        selectContainer.append(btn);
+    } else {
+        const separator = document.createElement('span');
+        separator.classList.add('vl');
+        selectContainer.append(separator);
+    }
+    
 });
 
 const bgmPlayer = document.getElementById('bgmusic');
