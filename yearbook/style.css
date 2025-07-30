@@ -52,6 +52,14 @@ body {
     max-width: 160px;
 }
 
+.vl {
+  display: inline-block;
+  border-left: 2px #bbb479 solid;
+  height: 64px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
 #container {
     position: fixed;
     top: 0;
@@ -80,7 +88,7 @@ body {
     height: calc(18% - 16px);
     margin: 0;
     padding: 8px;
-    border-top: 1px #bbb479 dashed;
+    border-bottom: 2px #bbb479 dashed;
 }
 
 #charPortrait {
@@ -120,6 +128,7 @@ body {
     align-items: center;
     gap: 8px;
     overflow-y: scroll;
-    background-color: #85805b9d;
+    border: 2px #bbb479 dashed;
     border-radius: 8px;
+    background: #bbb4793d;
 }
