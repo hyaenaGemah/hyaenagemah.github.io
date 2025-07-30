@@ -17,6 +17,7 @@
 body {
     background: white url('img/paperTexture.jpg') repeat left top;
     animation: AnimateGradient 60s linear infinite;
+    font-family: selectorFont, Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .charBtn {
@@ -52,13 +53,13 @@ body {
     max-width: 160px;
 }
 
-.vl {
+/* .vl {
   display: inline-block;
   border-left: 2px #bbb479 solid;
   height: 64px;
   margin-left: 3px;
   margin-right: 3px;
-}
+} */
 
 #container {
     position: fixed;
@@ -89,6 +90,7 @@ body {
     margin: 0;
     padding: 8px;
     border-bottom: 2px #bbb479 dashed;
+    text-align: center;
 }
 
 #charPortrait {

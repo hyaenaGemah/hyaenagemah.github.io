@@ -221,28 +221,6 @@ const characters = [
         ]
     },
     {
-        id: 'bin',
-        name: 'Bin ',
-        superlative: '[Insert your superlative here]',
-        portraits: ['portrait.webp', 'select.webp'],
-        gallery: [
-            { src: './img/char/bin/gallery/202408.webp',  title: 'Aug 2024 - Pokemon Trade' },
-            { src: './img/char/bin/gallery/202409.webp',  title: 'Sep 2024 - Mecha Trade' },
-            { src: './img/char/bin/gallery/202410.webp',  title: 'Oct 2024 - Halloween Trade' },
-            { src: './img/char/bin/gallery/202410A.webp', title: 'Oct 2024 - Halloween Trade' },
-            { src: './img/char/bin/gallery/202411.webp',  title: 'Nov 2024 - Music Albums Trade' },
-            { src: './img/char/bin/gallery/202412.webp',  title: 'Dec 2024 - Winter Trade' },
-            { src: './img/char/bin/gallery/202501.webp',  title: 'Jan 2025 - Criminal Activity Trade' },
-            { src: './img/char/bin/gallery/202502.webp',  title: 'Feb 2025 - Space Trade' },
-            { src: './img/char/bin/gallery/202504.webp',  title: 'Apr 2025 - High Fantasy Trade' },
-            { src: './img/char/bin/gallery/202505.webp',  title: 'Jun 2025 - TCG Trade' },
-            { src: './img/char/bin/gallery/202505A.webp', title: 'Jun 2025 - TCG Trade' },
-            { src: './img/char/bin/gallery/202506.webp',  title: 'Jun 2025 - Sports Trade' },
-            { src: './img/char/bin/gallery/202506A.webp', title: 'Jun 2025 - Sports Trade' },
-            { src: './img/char/bin/gallery/202506B.webp', title: 'Jun 2025 - Sports Trade' },
-        ]
-    },
-    {
         id: 'marcus',
         name: 'Marcus Benpaws',
         superlative: '[Insert your superlative here]',
@@ -336,6 +314,28 @@ const characters = [
             { src: './img/char/tato/gallery/202505A.webp', title: 'Apr 2025 - TCG Trade' },
             { src: './img/char/tato/gallery/202505B.webp', title: 'Apr 2025 - TCG Trade' },
             { src: './img/char/tato/gallery/202506.webp',  title: 'Jun 2025 - Sports Trade' }
+        ]
+    },
+    {
+        id: 'bin',
+        name: 'Bin ',
+        superlative: '[Insert your superlative here]',
+        portraits: ['portrait.webp', 'select.webp'],
+        gallery: [
+            { src: './img/char/bin/gallery/202408.webp',  title: 'Aug 2024 - Pokemon Trade' },
+            { src: './img/char/bin/gallery/202409.webp',  title: 'Sep 2024 - Mecha Trade' },
+            { src: './img/char/bin/gallery/202410.webp',  title: 'Oct 2024 - Halloween Trade' },
+            { src: './img/char/bin/gallery/202410A.webp', title: 'Oct 2024 - Halloween Trade' },
+            { src: './img/char/bin/gallery/202411.webp',  title: 'Nov 2024 - Music Albums Trade' },
+            { src: './img/char/bin/gallery/202412.webp',  title: 'Dec 2024 - Winter Trade' },
+            { src: './img/char/bin/gallery/202501.webp',  title: 'Jan 2025 - Criminal Activity Trade' },
+            { src: './img/char/bin/gallery/202502.webp',  title: 'Feb 2025 - Space Trade' },
+            { src: './img/char/bin/gallery/202504.webp',  title: 'Apr 2025 - High Fantasy Trade' },
+            { src: './img/char/bin/gallery/202505.webp',  title: 'Jun 2025 - TCG Trade' },
+            { src: './img/char/bin/gallery/202505A.webp', title: 'Jun 2025 - TCG Trade' },
+            { src: './img/char/bin/gallery/202506.webp',  title: 'Jun 2025 - Sports Trade' },
+            { src: './img/char/bin/gallery/202506A.webp', title: 'Jun 2025 - Sports Trade' },
+            { src: './img/char/bin/gallery/202506B.webp', title: 'Jun 2025 - Sports Trade' },
         ]
     },
     {
@@ -503,6 +503,10 @@ characters.forEach(char => {
                 </a>`;
             }
 
+            if (char.gallery.length === 0) {
+                gallery.innerHTML = '<span style="font-size: 24px;">No previous pictures were found</span>'
+            }
+
             new SimpleLightbox({elements: '#charGallery a'});
 
             // Sound behavior
@@ -513,9 +517,8 @@ characters.forEach(char => {
         };
         selectContainer.append(btn);
     } else {
-        const separator = document.createElement('span');
-        separator.classList.add('vl');
-        selectContainer.append(separator);
+        const lineBreak = document.createElement('br');
+        selectContainer.append(lineBreak);
     }
     
 });
