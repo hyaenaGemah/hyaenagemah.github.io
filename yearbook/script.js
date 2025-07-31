@@ -39,7 +39,7 @@ const characters = [
     },
     {
         id: 'chimeraMutt',
-        name: 'Micah/Jer',
+        name: 'Micah',
         superlative: '"Best boy pillow" -Marcus',
         portraits: ['portrait.webp', 'select.webp'],
         gallery: [
