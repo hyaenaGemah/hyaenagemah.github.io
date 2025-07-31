@@ -22,19 +22,19 @@ const characters = [
         superlative: '"Best friends" -Joel',
         portraits: ['portrait.webp', 'select.webp'],
         gallery: [
-            { src: './img/char/beardgator/gallery/202408.webp', title: 'Aug 2024 - Pokemon Trade' },
-            { src: './img/char/beardgator/gallery/202409.webp', title: 'Sep 2024 - Mecha Trade' },
-            { src: './img/char/beardgator/gallery/202410.webp', title: 'Oct 2024 - Halloween Trade' },
-            { src: './img/char/beardgator/gallery/202411.webp', title: 'Nov 2024 - Music Albums Trade' },
-            { src: './img/char/beardgator/gallery/202412.webp', title: 'Dec 2024 - Winter Trade' },
-            { src: './img/char/beardgator/gallery/202412A.webp', title: 'Dec 2024 - Winter Trade' },
-            { src: './img/char/beardgator/gallery/202501.webp', title: 'Jan 2025 - Criminal Activity Trade' },
-            { src: './img/char/beardgator/gallery/202502.webp', title: 'Feb 2025 - Space Trade' },
-            { src: './img/char/beardgator/gallery/202503.webp', title: 'Mar 2025 - Beach Episode Trade' },
-            { src: './img/char/beardgator/gallery/202504.webp', title: 'Apr 2025 - High Fantasy Trade' },
-            { src: './img/char/beardgator/gallery/202505.webp', title: 'Apr 2025 - TCG Trade' },
-            { src: './img/char/beardgator/gallery/202506.webp', title: 'Jun 2025 - Sports Trade' },
-            { src: './img/char/beardgator/portrait.webp', title: 'Jul 2025 - Yearbook Trade' }
+            { src: './img/char/beardgator/gallery/202408.webp', title: 'Aug 2024 - Pokemon Trade by Tato' },
+            { src: './img/char/beardgator/gallery/202409.webp', title: 'Sep 2024 - Mecha Trade by Gemah' },
+            { src: './img/char/beardgator/gallery/202410.webp', title: 'Oct 2024 - Halloween Trade by Sol' },
+            { src: './img/char/beardgator/gallery/202411.webp', title: 'Nov 2024 - Music Albums Trade by Gemah' },
+            { src: './img/char/beardgator/gallery/202412.webp', title: 'Dec 2024 - Winter Trade by Franklin' },
+            { src: './img/char/beardgator/gallery/202412A.webp', title: 'Dec 2024 - Winter Trade by Franklin' },
+            { src: './img/char/beardgator/gallery/202501.webp', title: 'Jan 2025 - Criminal Activity Trade by Gluten' },
+            { src: './img/char/beardgator/gallery/202502.webp', title: 'Feb 2025 - Space Trade by Manny' },
+            { src: './img/char/beardgator/gallery/202503.webp', title: 'Mar 2025 - Beach Episode Trade by Micah' },
+            { src: './img/char/beardgator/gallery/202504.webp', title: 'Apr 2025 - High Fantasy Trade by Eclair' },
+            { src: './img/char/beardgator/gallery/202505.webp', title: 'May 2025 - TCG Trade by Franklin' },
+            { src: './img/char/beardgator/gallery/202506.webp', title: 'Jun 2025 - Sports Trade by Rami' },
+            { src: './img/char/beardgator/portrait.webp', title: 'Jul 2025 - Yearbook Trade by Joel' }
         ]
     },
     {
@@ -43,24 +43,25 @@ const characters = [
         superlative: '"Best boy pillow" -Marcus',
         portraits: ['portrait.webp', 'select.webp'],
         gallery: [
-            { src: './img/char/chimeraMutt/gallery/202408.webp', title: 'Aug 2024 - Pokemon Trade' },
-            { src: './img/char/chimeraMutt/gallery/202409.webp', title: 'Sep 2024 - Mecha Trade' },
-            { src: './img/char/chimeraMutt/gallery/202410.webp', title: 'Oct 2024 - Halloween Trade' },
-            { src: './img/char/chimeraMutt/gallery/202411.webp', title: 'Nov 2024 - Music Albums Trade' },
-            { src: './img/char/chimeraMutt/gallery/202412.webp', title: 'Dec 2024 - Winter Trade' },
-            { src: './img/char/chimeraMutt/gallery/202501.webp', title: 'Jan 2025 - Criminal Activity Trade' },
-            { src: './img/char/chimeraMutt/gallery/202502.webp', title: 'Feb 2025 - Space Trade' },
-            { src: './img/char/chimeraMutt/gallery/202504.webp', title: 'Apr 2025 - High Fantasy Trade' },
-            { src: './img/char/chimeraMutt/gallery/202504A.webp', title: 'Apr 2025 - High Fantasy Trade' },
-            { src: './img/char/chimeraMutt/gallery/202505.webp', title: 'Jun 2025 - TCG Trade' },
-            { src: './img/char/chimeraMutt/gallery/202505A.webp', title: 'Jun 2025 - TCG Trade' },
-            { src: './img/char/chimeraMutt/gallery/202505B.webp', title: 'Jun 2025 - TCG Trade' },
-            { src: './img/char/chimeraMutt/gallery/202505C.webp', title: 'Jun 2025 - TCG Trade' },
-            { src: './img/char/chimeraMutt/gallery/202505D.webp', title: 'Jun 2025 - TCG Trade' },
-            { src: './img/char/chimeraMutt/gallery/202505E.webp', title: 'Jun 2025 - TCG Trade' },
-            { src: './img/char/chimeraMutt/gallery/202505F.webp', title: 'Jun 2025 - TCG Trade' },
-            { src: './img/char/chimeraMutt/gallery/202506.webp', title: 'Jun 2025 - Sports Trade' },
-            { src: './img/char/chimeraMutt/portrait.webp', title: 'Jul 2025 - Yearbook Trade' }
+            { src: './img/char/chimeraMutt/gallery/202408.webp', title: 'Aug 2024 - Pokemon Trade by Beardgator' },
+            { src: './img/char/chimeraMutt/gallery/202409.webp', title: 'Sep 2024 - Mecha Trade by Manny' },
+            { src: './img/char/chimeraMutt/gallery/202410.webp', title: 'Oct 2024 - Halloween Trade by Frito' },
+            { src: './img/char/chimeraMutt/gallery/202411.webp', title: 'Nov 2024 - Music Albums Trade by Bobba' },
+            { src: './img/char/chimeraMutt/gallery/202412.webp', title: 'Dec 2024 - Winter Trade by Platano' },
+            { src: './img/char/chimeraMutt/gallery/202501.webp', title: 'Jan 2025 - Criminal Activity Trade by Sol' },
+            { src: './img/char/chimeraMutt/gallery/202502.webp', title: 'Feb 2025 - Space Trade by Gemah' },
+            { src: './img/char/chimeraMutt/gallery/202503.webp', title: 'Mar 2025 - Beach Episode Trade by Bin' },
+            { src: './img/char/chimeraMutt/gallery/202504.webp', title: 'Apr 2025 - High Fantasy Trade by Joel' },
+            { src: './img/char/chimeraMutt/gallery/202504A.webp', title: 'Apr 2025 - High Fantasy Trade by Joel' },
+            { src: './img/char/chimeraMutt/gallery/202505.webp', title: 'May 2025 - TCG Trade by Gluten' },
+            { src: './img/char/chimeraMutt/gallery/202505A.webp', title: 'May 2025 - TCG Trade by Gluten' },
+            { src: './img/char/chimeraMutt/gallery/202505B.webp', title: 'May 2025 - TCG Trade by Gluten' },
+            { src: './img/char/chimeraMutt/gallery/202505C.webp', title: 'May 2025 - TCG Trade by Gluten' },
+            { src: './img/char/chimeraMutt/gallery/202505D.webp', title: 'May 2025 - TCG Trade by Gluten' },
+            { src: './img/char/chimeraMutt/gallery/202505E.webp', title: 'May 2025 - TCG Trade by Gluten' },
+            { src: './img/char/chimeraMutt/gallery/202505F.webp', title: 'May 2025 - TCG Trade by Gluten' },
+            { src: './img/char/chimeraMutt/gallery/202506.webp', title: 'Jun 2025 - Sports Trade by Joey' },
+            { src: './img/char/chimeraMutt/portrait.webp', title: 'Jul 2025 - Yearbook Trade by Marcus' }
         ]
     },
     {
@@ -69,7 +70,7 @@ const characters = [
         superlative: '"Most likely to be a freak" -Frito',
         portraits: ['portrait.webp', 'select.webp'],
         gallery: [
-            { src: './img/char/dlegoh/portrait.webp', title: 'Jul 2025 - Yearbook Trade' }
+            { src: './img/char/dlegoh/portrait.webp', title: 'Jul 2025 - Yearbook Trade by Frito' }
         ]
     },
     {
@@ -78,18 +79,18 @@ const characters = [
         superlative: '"Most nice <em>(most likely to dig in their butt)</em> " -Abner',
         portraits: ['portrait.webp', 'select.webp'],
         gallery: [
-            { src: './img/char/eclair/gallery/202411.webp', title: 'Nov 2024 - Music Albums Trade' },
-            { src: './img/char/eclair/gallery/202412.gif',  title: 'Dec 2024 - Winter Trade' },
-            { src: './img/char/eclair/gallery/202412A.webp', title: 'Dec 2024 - Winter Trade' },
-            { src: './img/char/eclair/gallery/202501.webp', title: 'Jan 2025 - Criminal Activity Trade' },
-            { src: './img/char/eclair/gallery/202501A.webp', title: 'Jan 2025 - Criminal Activity Trade' },
-            { src: './img/char/eclair/gallery/202502.webp', title: 'Feb 2025 - Space Trade' },
-            { src: './img/char/eclair/gallery/202503.webp', title: 'Mar 2025 - Beach Episode Trade' },
-            { src: './img/char/eclair/gallery/202504.webp', title: 'Apr 2025 - High Fantasy Trade' },
-            { src: './img/char/eclair/gallery/202505.webp', title: 'Apr 2025 - TCG Trade' },
-            { src: './img/char/eclair/gallery/202505A.webp', title: 'Apr 2025 - TCG Trade' },
-            { src: './img/char/eclair/gallery/202506.webp', title: 'Jun 2025 - Sports Trade' },
-            { src: './img/char/eclair/portrait.webp', title: 'Jul 2025 - Yearbook Trade' }
+            { src: './img/char/eclair/gallery/202411.webp', title: 'Nov 2024 - Music Albums Trade by Sol' },
+            { src: './img/char/eclair/gallery/202412.gif',  title: 'Dec 2024 - Winter Trade by Micah' },
+            { src: './img/char/eclair/gallery/202412A.webp', title: 'Dec 2024 - Winter Trade by Micah' },
+            { src: './img/char/eclair/gallery/202501.webp', title: 'Jan 2025 - Criminal Activity Trade by Tato' },
+            { src: './img/char/eclair/gallery/202501A.webp', title: 'Jan 2025 - Criminal Activity Trade by Tato' },
+            { src: './img/char/eclair/gallery/202502.webp', title: 'Feb 2025 - Space Trade by Kaby' },
+            { src: './img/char/eclair/gallery/202503.webp', title: 'Mar 2025 - Beach Episode Trade by Marcus' },
+            { src: './img/char/eclair/gallery/202504.webp', title: 'Apr 2025 - High Fantasy Trade by Bin' },
+            { src: './img/char/eclair/gallery/202505.webp', title: 'May 2025 - TCG Trade by Joey' },
+            { src: './img/char/eclair/gallery/202505A.webp', title: 'May 2025 - TCG Trade by Joey' },
+            { src: './img/char/eclair/gallery/202506.webp', title: 'Jun 2025 - Sports Trade by Frito' },
+            { src: './img/char/eclair/portrait.webp', title: 'Jul 2025 - Yearbook Trade by Abner' }
         ]
     },
     {
@@ -98,14 +99,14 @@ const characters = [
         superlative: '"Best to get stuck in an elevator with" -Tato',
         portraits: ['portrait.webp', 'select.webp'],
         gallery: [
-            { src: './img/char/gluten/gallery/202411.webp', title: 'Nov 2024 - Music Albums Trade' },
-            { src: './img/char/gluten/gallery/202501.webp', title: 'Jan 2025 - Criminal Activity Trade' },
-            { src: './img/char/gluten/gallery/202502.webp', title: 'Feb 2025 - Space Trade' },
-            { src: './img/char/gluten/gallery/202502A.webp', title: 'Feb 2025 - Space Trade' },
-            { src: './img/char/gluten/gallery/202505.webp', title: 'Apr 2025 - TCG Trade' },
-            { src: './img/char/gluten/gallery/202506.webp', title: 'Jun 2025 - Sports Trade' },
-            { src: './img/char/gluten/portrait.webp', title: 'Jul 2025 - Yearbook Trade' },
-            { src: './img/char/gluten/gallery/202507.webp', title: 'Jul 2025 - Yearbook Trade' }
+            { src: './img/char/gluten/gallery/202411.webp', title: 'Nov 2024 - Music Albums Trade by Micah' },
+            { src: './img/char/gluten/gallery/202501.webp', title: 'Jan 2025 - Criminal Activity Trade by Matt' },
+            { src: './img/char/gluten/gallery/202502.webp', title: 'Feb 2025 - Space Trade by Bin' },
+            { src: './img/char/gluten/gallery/202502A.webp', title: 'Feb 2025 - Space Trade by Bin' },
+            { src: './img/char/gluten/gallery/202505.webp', title: 'May 2025 - TCG Trade by Manny' },
+            { src: './img/char/gluten/gallery/202506.webp', title: 'Jun 2025 - Sports Trade by Abner' },
+            { src: './img/char/gluten/portrait.webp', title: 'Jul 2025 - Yearbook Trade by Tato' },
+            { src: './img/char/gluten/gallery/202507.webp', title: 'Jul 2025 - Yearbook Trade by Tato' }
         ]
     },
     {
@@ -114,14 +115,14 @@ const characters = [
         superlative: '"Most likely to react violently to tummy being touched" -Joey',
         portraits: ['portrait.webp', 'select.webp'],
         gallery: [
-            { src: './img/char/gnomater/gallery/202411.webp', title: 'Nov 2024 - Music Albums Trade' },
-            { src: './img/char/gnomater/gallery/202504.webp', title: 'Apr 2025 - High Fantasy Trade' },
-            { src: './img/char/gnomater/gallery/202504A.webp', title: 'Apr 2025 - High Fantasy Trade' },
-            { src: './img/char/gnomater/gallery/202505.webp', title: 'Apr 2025 - TCG Trade' },
-            { src: './img/char/gnomater/gallery/202505A.webp', title: 'Apr 2025 - TCG Trade' },
-            { src: './img/char/gnomater/gallery/202505B.webp', title: 'Apr 2025 - TCG Trade' },
-            { src: './img/char/gnomater/gallery/202505C.webp', title: 'Apr 2025 - TCG Trade' },
-            { src: './img/char/gnomater/portrait.webp', title: 'Jul 2025 - Yearbook Trade' }
+            { src: './img/char/gnomater/gallery/202411.webp', title: 'Nov 2024 - Music Albums Trade by PolyTonne' },
+            { src: './img/char/gnomater/gallery/202504.webp', title: 'Apr 2025 - High Fantasy Trade by Tato' },
+            { src: './img/char/gnomater/gallery/202504A.webp', title: 'Apr 2025 - High Fantasy Trade by Tato' },
+            { src: './img/char/gnomater/gallery/202505.webp', title: 'May 2025 - TCG Trade by Bin' },
+            { src: './img/char/gnomater/gallery/202505A.webp', title: 'May 2025 - TCG Trade by Bin' },
+            { src: './img/char/gnomater/gallery/202505B.webp', title: 'May 2025 - TCG Trade by Bin' },
+            { src: './img/char/gnomater/gallery/202505C.webp', title: 'May 2025 - TCG Trade by Bin' },
+            { src: './img/char/gnomater/portrait.webp', title: 'Jul 2025 - Yearbook Trade by Joey' }
         ]
     },
     {
@@ -130,19 +131,19 @@ const characters = [
         superlative: '"Most likely to take someone to brazil <em>(most nice)</em>" -Beardgator',
         portraits: ['portrait.webp', 'select.webp'],
         gallery: [
-            { src: './img/char/hyaenaGemah/gallery/202408.webp', title: 'Aug 2024 - Pokemon Trade' },
-            { src: './img/char/hyaenaGemah/gallery/202409.webp', title: 'Sep 2024 - Mecha Trade' },
-            { src: './img/char/hyaenaGemah/gallery/202410.webp', title: 'Oct 2024 - Halloween Trade' },
-            { src: './img/char/hyaenaGemah/gallery/202411.webp', title: 'Nov 2024 - Music Albums Trade' },
-            { src: './img/char/hyaenaGemah/gallery/202411A.webp', title: 'Nov 2024 - Music Albums Trade' },
-            { src: './img/char/hyaenaGemah/gallery/202412.webp', title: 'Dec 2024 - Winter Trade' },
-            { src: './img/char/hyaenaGemah/gallery/202501.webp', title: 'Jan 2025 - Criminal Activity Trade' },
-            { src: './img/char/hyaenaGemah/gallery/202501A.webp', title: 'Jan 2025 - Criminal Activity Trade' },
-            { src: './img/char/hyaenaGemah/gallery/202502.webp', title: 'Feb 2025 - Space Trade' },
-            { src: './img/char/hyaenaGemah/gallery/202503.webp', title: 'Mar 2025 - Beach Episode Trade' },
-            { src: './img/char/hyaenaGemah/gallery/202504.webp', title: 'Apr 2025 - High Fantasy Trade' },
-            { src: './img/char/hyaenaGemah/gallery/202506.webp', title: 'Jun 2025 - Sports Trade' },
-            { src: './img/char/hyaenaGemah/portrait.webp', title: 'Jul 2025 - Yearbook Trade' }
+            { src: './img/char/hyaenaGemah/gallery/202408.webp', title: 'Aug 2024 - Pokemon Trade by Kaby' },
+            { src: './img/char/hyaenaGemah/gallery/202409.webp', title: 'Sep 2024 - Mecha Trade by Ruben' },
+            { src: './img/char/hyaenaGemah/gallery/202410.webp', title: 'Oct 2024 - Halloween Trade by Franklin' },
+            { src: './img/char/hyaenaGemah/gallery/202411.webp', title: 'Nov 2024 - Music Albums Trade by Platano' },
+            { src: './img/char/hyaenaGemah/gallery/202411A.webp', title: 'Nov 2024 - Music Albums Trade by Platano' },
+            { src: './img/char/hyaenaGemah/gallery/202412.webp', title: 'Dec 2024 - Winter Trade by Frito' },
+            { src: './img/char/hyaenaGemah/gallery/202501.webp', title: 'Jan 2025 - Criminal Activity Trade by Bin' },
+            { src: './img/char/hyaenaGemah/gallery/202501A.webp', title: 'Jan 2025 - Criminal Activity Trade by Bin' },
+            { src: './img/char/hyaenaGemah/gallery/202502.webp', title: 'Feb 2025 - Space Trade by Sol' },
+            { src: './img/char/hyaenaGemah/gallery/202503.webp', title: 'Mar 2025 - Beach Episode Trade by ChrisTwo' },
+            { src: './img/char/hyaenaGemah/gallery/202504.webp', title: 'Apr 2025 - High Fantasy Trade by Kaby' },
+            { src: './img/char/hyaenaGemah/gallery/202506.webp', title: 'Jun 2025 - Sports Trade by Gluten' },
+            { src: './img/char/hyaenaGemah/portrait.webp', title: 'Jul 2025 - Yearbook Trade by Beardgator' }
         ]
     },
     {
@@ -151,19 +152,19 @@ const characters = [
         superlative: '"Prettiest hair" -Gluten',
         portraits: ['portrait.webp', 'select.webp'],
         gallery: [
-            { src: './img/char/joey/gallery/202408.webp', title: 'Aug 2024 - Pokemon Trade' },
-            { src: './img/char/joey/gallery/202410.webp', title: 'Oct 2024 - Halloween Trade' },
-            { src: './img/char/joey/gallery/202412.webp', title: 'Dec 2024 - Winter Trade' },
-            { src: './img/char/joey/gallery/202501.webp', title: 'Jan 2025 - Criminal Activity Trade' },
-            { src: './img/char/joey/gallery/202501A.webp', title: 'Jan 2025 - Criminal Activity Trade' },
-            { src: './img/char/joey/gallery/202502.webp', title: 'Feb 2025 - Space Trade' },
-            { src: './img/char/joey/gallery/202503.webp', title: 'Mar 2025 - Beach Episode Trade' },
-            { src: './img/char/joey/gallery/202504.webp', title: 'Apr 2025 - High Fantasy Trade' },
-            { src: './img/char/joey/gallery/202505.gif', title: 'Apr 2025 - TCG Trade' },
-            { src: './img/char/joey/gallery/202506.webp', title: 'Jun 2025 - Sports Trade' },
-            { src: './img/char/joey/gallery/202506A.webp', title: 'Jun 2025 - Sports Trade' },
-            { src: './img/char/joey/portrait.webp', title: 'Jul 2025 - Yearbook Trade' },
-            { src: './img/char/joey/gallery/202507.webp', title: 'Jul 2025 - Yearbook Trade' }
+            { src: './img/char/joey/gallery/202408.webp', title: 'Aug 2024 - Pokemon Trade by Abner' },
+            { src: './img/char/joey/gallery/202410.webp', title: 'Oct 2024 - Halloween Trade by Marcus' },
+            { src: './img/char/joey/gallery/202412.webp', title: 'Dec 2024 - Winter Trade by Matt' },
+            { src: './img/char/joey/gallery/202501.webp', title: 'Jan 2025 - Criminal Activity Trade by Kaby' },
+            { src: './img/char/joey/gallery/202501A.webp', title: 'Jan 2025 - Criminal Activity Trade by Kaby' },
+            { src: './img/char/joey/gallery/202502.webp', title: 'Feb 2025 - Space Trade by Tato' },
+            { src: './img/char/joey/gallery/202503.webp', title: 'Mar 2025 - Beach Episode Trade by Micah' },
+            { src: './img/char/joey/gallery/202504.webp', title: 'Apr 2025 - High Fantasy Trade by Gemah' },
+            { src: './img/char/joey/gallery/202505.gif', title: 'May 2025 - TCG Trade by Chris' },
+            { src: './img/char/joey/gallery/202506.webp', title: 'Jun 2025 - Sports Trade by Eclair' },
+            { src: './img/char/joey/gallery/202506A.webp', title: 'Jun 2025 - Sports Trade by Eclair' },
+            { src: './img/char/joey/portrait.webp', title: 'Jul 2025 - Yearbook Trade by Gluten' },
+            { src: './img/char/joey/gallery/202507.webp', title: 'Jul 2025 - Yearbook Trade by Gluten' }
         ]
     },
     {
@@ -172,16 +173,16 @@ const characters = [
         superlative: '"Most likely to lay an egg" -Manny',
         portraits: ['portrait.webp', 'select.webp'],
         gallery: [
-            { src: './img/char/kaby/gallery/202408.webp', title: 'Aug 2024 - Pokemon Trade' },
-            { src: './img/char/kaby/gallery/202409.webp', title: 'Sep 2024 - Mecha Trade' },
-            { src: './img/char/kaby/gallery/202410.webp', title: 'Oct 2024 - Halloween Trade' },
-            { src: './img/char/kaby/gallery/202411.webp', title: 'Nov 2024 - Music Albums Trade' },
-            { src: './img/char/kaby/gallery/202501.webp', title: 'Jan 2025 - Criminal Activity Trade' },
-            { src: './img/char/kaby/gallery/202502.webp', title: 'Feb 2025 - Space Trade' },
-            { src: './img/char/kaby/gallery/202503.webp', title: 'Mar 2025 - Beach Episode Trade' },
-            { src: './img/char/kaby/gallery/202504.webp', title: 'Apr 2025 - High Fantasy Trade' },
-            { src: './img/char/kaby/portrait.webp', title: 'Jul 2025 - Yearbook Trade' },
-            { src: './img/char/kaby/gallery/202507.webp', title: 'Jul 2025 - Yearbook Trade' }
+            { src: './img/char/kaby/gallery/202408.webp', title: 'Aug 2024 - Pokemon Trade by Joel' },
+            { src: './img/char/kaby/gallery/202409.webp', title: 'Sep 2024 - Mecha Trade by Sol' },
+            { src: './img/char/kaby/gallery/202410.webp', title: 'Oct 2024 - Halloween Trade by Bin' },
+            { src: './img/char/kaby/gallery/202411.webp', title: 'Nov 2024 - Music Albums Trade by Yeesht' },
+            { src: './img/char/kaby/gallery/202501.webp', title: 'Jan 2025 - Criminal Activity Trade by PolyTonne' },
+            { src: './img/char/kaby/gallery/202502.webp', title: 'Feb 2025 - Space Trade by Beardgator' },
+            { src: './img/char/kaby/gallery/202503.webp', title: 'Mar 2025 - Beach Episode Trade by Eclair' },
+            { src: './img/char/kaby/gallery/202504.webp', title: 'Apr 2025 - High Fantasy Trade by Micah' },
+            { src: './img/char/kaby/portrait.webp', title: 'Jul 2025 - Yearbook Trade by Manny' },
+            { src: './img/char/kaby/gallery/202507.webp', title: 'Jul 2025 - Yearbook Trade by Manny' }
         ]
     },
     {
@@ -190,16 +191,16 @@ const characters = [
         superlative: '"Mosty likely to get arrested at a waffle house" -Micah',
         portraits: ['portrait.webp', 'select.webp'],
         gallery: [
-            { src: './img/char/manny/gallery/202409.webp', title: 'Sep 2024 - Mecha Trade' },
-            { src: './img/char/manny/gallery/202410.webp', title: 'Oct 2024 - Halloween Trade' },
-            { src: './img/char/manny/gallery/202411.webp', title: 'Nov 2024 - Music Albums Trade' },
-            { src: './img/char/manny/gallery/202412.webp', title: 'Dec 2024 - Winter Trade' },
-            { src: './img/char/manny/gallery/202501.webp', title: 'Jan 2025 - Criminal Activity Trade' },
-            { src: './img/char/manny/gallery/202502.webp', title: 'Feb 2025 - Space Trade' },
-            { src: './img/char/manny/gallery/202502A.gif', title: 'Feb 2025 - Space Trade' },
-            { src: './img/char/manny/gallery/202505.webp', title: 'Apr 2025 - TCG Trade' },
-            { src: './img/char/manny/portrait.webp', title: 'Jul 2025 - Yearbook Trade' },
-            { src: './img/char/manny/gallery/202507.webp', title: 'Jul 2025 - Yearbook Trade', video: './img/char/manny/gallery/202507.mp4' }
+            { src: './img/char/manny/gallery/202409.webp', title: 'Sep 2024 - Mecha Trade by Frito' },
+            { src: './img/char/manny/gallery/202410.webp', title: 'Oct 2024 - Halloween Trade by PolyTonne' },
+            { src: './img/char/manny/gallery/202411.webp', title: 'Nov 2024 - Music Albums Trade by Tato' },
+            { src: './img/char/manny/gallery/202412.webp', title: 'Dec 2024 - Winter Trade by ChrisTwo' },
+            { src: './img/char/manny/gallery/202501.webp', title: 'Jan 2025 - Criminal Activity Trade by Marcus' },
+            { src: './img/char/manny/gallery/202502.webp', title: 'Feb 2025 - Space Trade by Matt' },
+            { src: './img/char/manny/gallery/202502A.gif', title: 'Feb 2025 - Space Trade by Micah' },
+            { src: './img/char/manny/gallery/202505.webp', title: 'May 2025 - TCG Trade by Sol' },
+            { src: './img/char/manny/portrait.webp', title: 'Jul 2025 - Yearbook Trade by Micah' },
+            { src: './img/char/manny/gallery/202507.webp', title: 'Jul 2025 - Yearbook Trade by Micah (Animated)', video: './img/char/manny/gallery/202507.mp4' }
         ]
     },
     {
@@ -208,16 +209,16 @@ const characters = [
         superlative: '"Teacher who is most likely to <em>bear</em> with us" -Gemah',
         portraits: ['portrait.webp', 'select.webp'],
         gallery: [
-            { src: './img/char/marcus/gallery/202410.webp', title: 'Oct 2024 - Halloween Trade' },
-            { src: './img/char/marcus/gallery/202410A.webp', title: 'Oct 2024 - Halloween Trade' },
-            { src: './img/char/marcus/gallery/202411.webp', title: 'Nov 2024 - Music Albums Trade' },
-            { src: './img/char/marcus/gallery/202501.webp', title: 'Jan 2025 - Criminal Activity Trade' },
-            { src: './img/char/marcus/gallery/202503.webp', title: 'Mar 2025 - Beach Episode Trade' },
-            { src: './img/char/marcus/gallery/202504.webp', title: 'Apr 2025 - High Fantasy Trade' },
-            { src: './img/char/marcus/gallery/202505.webp', title: 'Apr 2025 - TCG Trade' },
-            { src: './img/char/marcus/gallery/202505A.webp', title: 'Apr 2025 - TCG Trade' },
-            { src: './img/char/marcus/gallery/202506.webp', title: 'Jun 2025 - Sports Trade' },
-            { src: './img/char/marcus/portrait.webp', title: 'Jul 2025 - Yearbook Trade' }
+            { src: './img/char/marcus/gallery/202410.webp', title: 'Oct 2024 - Halloween Trade by Mundo' },
+            { src: './img/char/marcus/gallery/202410A.webp', title: 'Oct 2024 - Halloween Trade by Mundo' },
+            { src: './img/char/marcus/gallery/202411.webp', title: 'Nov 2024 - Music Albums Trade by Ruben' },
+            { src: './img/char/marcus/gallery/202501.webp', title: 'Jan 2025 - Criminal Activity Trade by Beardgator' },
+            { src: './img/char/marcus/gallery/202503.webp', title: 'Mar 2025 - Beach Episode Trade by Joey' },
+            { src: './img/char/marcus/gallery/202504.webp', title: 'Apr 2025 - High Fantasy Trade by Sol' },
+            { src: './img/char/marcus/gallery/202505.webp', title: 'May 2025 - TCG Trade by Abner' },
+            { src: './img/char/marcus/gallery/202505A.webp', title: 'May 2025 - TCG Trade by Abner' },
+            { src: './img/char/marcus/gallery/202506.webp', title: 'Jun 2025 - Sports Trade by Micah' },
+            { src: './img/char/marcus/portrait.webp', title: 'Jul 2025 - Yearbook Trade by Gemah' }
         ]
     },
     {
@@ -226,9 +227,9 @@ const characters = [
         superlative: '"Biggest sonichead" -Kaby',
         portraits: ['portrait.webp', 'select.webp'],
         gallery: [
-            { src: './img/char/rami/gallery/202506.webp', title: 'Jun 2025 - Sports Trade' },
-            { src: './img/char/rami/gallery/202507.webp', title: 'Jul 2025 - Yearbook Trade' },
-            { src: './img/char/rami/portrait.webp', title: 'Jul 2025 - Yearbook Trade' }
+            { src: './img/char/rami/gallery/202506.webp', title: 'Jun 2025 - Sports Trade by Bin' },
+            { src: './img/char/rami/gallery/202507.webp', title: 'Jul 2025 - Yearbook Trade by Kaby' },
+            { src: './img/char/rami/portrait.webp', title: 'Jul 2025 - Yearbook Trade by Kaby' }
         ]
     },
     {
@@ -237,15 +238,15 @@ const characters = [
         superlative: '"Most down to party" -EonSquabs',
         portraits: ['portrait.webp', 'select.webp'],
         gallery: [
-            { src: './img/char/rawphael/gallery/202408.webp', title: 'Aug 2024 - Pokemon Trade' },
-            { src: './img/char/rawphael/gallery/202409.webp', title: 'Sep 2024 - Mecha Trade' },
-            { src: './img/char/rawphael/gallery/202412.webp', title: 'Dec 2024 - Winter Trade' },
-            { src: './img/char/rawphael/gallery/202502.webp', title: 'Feb 2025 - Space Trade' },
-            { src: './img/char/rawphael/gallery/202503.webp', title: 'Mar 2025 - Beach Episode Trade' },
-            { src: './img/char/rawphael/gallery/202504.webp', title: 'Apr 2025 - High Fantasy Trade' },
-            { src: './img/char/rawphael/gallery/202505.webp', title: 'Apr 2025 - TCG Trade' },
-            { src: './img/char/rawphael/gallery/202506.webp', title: 'Jun 2025 - Sports Trade' },
-            { src: './img/char/rawphael/portrait.webp', title: 'Jul 2025 - Yearbook Trade' }
+            { src: './img/char/rawphael/gallery/202408.webp', title: 'Aug 2024 - Pokemon Trade by Sol' },
+            { src: './img/char/rawphael/gallery/202409.webp', title: 'Sep 2024 - Mecha Trade by Beardgator' },
+            { src: './img/char/rawphael/gallery/202412.webp', title: 'Dec 2024 - Winter Trade by Bin' },
+            { src: './img/char/rawphael/gallery/202502.webp', title: 'Feb 2025 - Space Trade by Frito' },
+            { src: './img/char/rawphael/gallery/202503.webp', title: 'Mar 2025 - Beach Episode Trade by by Gemah' },
+            { src: './img/char/rawphael/gallery/202504.webp', title: 'Apr 2025 - High Fantasy Trade by Marcus' },
+            { src: './img/char/rawphael/gallery/202505.webp', title: 'May 2025 - TCG Trade by Micah' },
+            { src: './img/char/rawphael/gallery/202506.webp', title: 'Jun 2025 - Sports Trade by Tato' },
+            { src: './img/char/rawphael/portrait.webp', title: 'Jul 2025 - Yearbook Trade by Franklin' }
         ]
     },
     {
@@ -254,10 +255,11 @@ const characters = [
         superlative: '"Most likely to rescue a novice adventurer" -Arnold',
         portraits: ['portrait.webp', 'select.webp'],
         gallery: [
-            { src: './img/char/sloppypasta/gallery/202408.webp', title: 'Aug 2024 - Pokemon Trade' },
-            { src: './img/char/sloppypasta/gallery/202504.webp', title: 'Apr 2025 - High Fantasy Trade' },
-            { src: './img/char/sloppypasta/gallery/202505.webp', title: 'Apr 2025 - TCG Trade' },
-            { src: './img/char/sloppypasta/portrait.webp', title: 'Jul 2025 - Yearbook Trade' }
+            { src: './img/char/sloppypasta/gallery/202408.webp', title: 'Aug 2024 - Pokemon Trade by Mundo' },
+            { src: './img/char/sloppypasta/gallery/202410.webp', title: 'Oct 2024 - Halloween Trade by Manny', video: './img/char/sloppypasta/gallery/202410.mp4' },
+            { src: './img/char/sloppypasta/gallery/202504.webp', title: 'Apr 2025 - High Fantasy Trade by ' },
+            { src: './img/char/sloppypasta/gallery/202505.webp', title: 'May 2025 - TCG Trade by Tato' },
+            { src: './img/char/sloppypasta/portrait.webp', title: 'Jul 2025 - Yearbook Trade by Arnold' }
         ]
     },
     {
@@ -266,20 +268,20 @@ const characters = [
         superlative: '"Most likely to sleep through graduation" -Rami',
         portraits: ['portrait.webp', 'select.webp'],
         gallery: [
-            { src: './img/char/sol/gallery/202408.webp', title: 'Aug 2024 - Pokemon Trade' },
-            { src: './img/char/sol/gallery/202409.webp', title: 'Sep 2024 - Mecha Trade' },
-            { src: './img/char/sol/gallery/202410.webp', title: 'Oct 2024 - Halloween Trade' },
+            { src: './img/char/sol/gallery/202408.webp', title: 'Aug 2024 - Pokemon Trade by Styx' },
+            { src: './img/char/sol/gallery/202409.webp', title: 'Sep 2024 - Mecha Trade by Micah' },
+            { src: './img/char/sol/gallery/202410.webp', title: 'Oct 2024 - Halloween Trade by Tato' },
             { src: './img/char/sol/gallery/202411.webp', title: 'Nov 2024 - Music Albums Trade' },
-            { src: './img/char/sol/gallery/202412.webp', title: 'Dec 2024 - Winter Trade' },
-            { src: './img/char/sol/gallery/202501.webp', title: 'Jan 2025 - Criminal Activity Trade' },
-            { src: './img/char/sol/gallery/202501A.webp', title: 'Jan 2025 - Criminal Activity Trade' },
-            { src: './img/char/sol/gallery/202502.webp', title: 'Feb 2025 - Space Trade' },
-            { src: './img/char/sol/gallery/202503.webp', title: 'Mar 2025 - Beach Episode Trade' },
-            { src: './img/char/sol/gallery/202503A.webp', title: 'Mar 2025 - Beach Episode Trade' },
-            { src: './img/char/sol/gallery/202504.webp', title: 'Apr 2025 - High Fantasy Trade' },
-            { src: './img/char/sol/gallery/202505.webp', title: 'Apr 2025 - TCG Trade' },
-            { src: './img/char/sol/gallery/202506.webp', title: 'Jun 2025 - Sports Trade' },
-            { src: './img/char/sol/portrait.webp', title: 'Jul 2025 - Yearbook Trade' }
+            { src: './img/char/sol/gallery/202412.webp', title: 'Dec 2024 - Winter Trade by Eclair' },
+            { src: './img/char/sol/gallery/202501.webp', title: 'Jan 2025 - Criminal Activity Trade by Manny' },
+            { src: './img/char/sol/gallery/202501A.webp', title: 'Jan 2025 - Criminal Activity Trade by Manny' },
+            { src: './img/char/sol/gallery/202502.webp', title: 'Feb 2025 - Space Trade by Logan' },
+            { src: './img/char/sol/gallery/202503.webp', title: 'Mar 2025 - Beach Episode Trade by Beardgator' },
+            { src: './img/char/sol/gallery/202503A.webp', title: 'Mar 2025 - Beach Episode Trade by Beardgator' },
+            { src: './img/char/sol/gallery/202504.webp', title: 'Apr 2025 - High Fantasy Trade by Joey' },
+            { src: './img/char/sol/gallery/202505.webp', title: 'May 2025 - TCG Trade by Arnold' },
+            { src: './img/char/sol/gallery/202506.webp', title: 'Jun 2025 - Sports Trade by Marcus' },
+            { src: './img/char/sol/portrait.webp', title: 'Jul 2025 - Yearbook Trade by Rami' }
         ]
     },
     {
@@ -288,21 +290,21 @@ const characters = [
         superlative: '"Best baker" -Diego',
         portraits: ['portrait.webp', 'select.webp'],
         gallery: [
-            { src: './img/char/tato/gallery/202408.webp', title: 'Aug 2024 - Pokemon Trade' },
-            { src: './img/char/tato/gallery/202409.webp', title: 'Sep 2024 - Mecha Trade' },
-            { src: './img/char/tato/gallery/202410.webp', title: 'Oct 2024 - Halloween Trade' },
-            { src: './img/char/tato/gallery/202411.webp', title: 'Nov 2024 - Music Albums Trade' },
-            { src: './img/char/tato/gallery/202412.webp', title: 'Dec 2024 - Winter Trade' },
-            { src: './img/char/tato/gallery/202501.webp', title: 'Jan 2025 - Criminal Activity Trade' },
-            { src: './img/char/tato/gallery/202502.webp', title: 'Feb 2025 - Space Trade' },
-            { src: './img/char/tato/gallery/202503.webp', title: 'Mar 2025 - Beach Episode Trade' },
-            { src: './img/char/tato/gallery/202504.webp', title: 'Apr 2025 - High Fantasy Trade' },
-            { src: './img/char/tato/gallery/202504A.webp', title: 'Apr 2025 - High Fantasy Trade' },
-            { src: './img/char/tato/gallery/202505.webp', title: 'Apr 2025 - TCG Trade' },
-            { src: './img/char/tato/gallery/202505A.webp', title: 'Apr 2025 - TCG Trade' },
-            { src: './img/char/tato/gallery/202505B.webp', title: 'Apr 2025 - TCG Trade' },
-            { src: './img/char/tato/gallery/202506.webp', title: 'Jun 2025 - Sports Trade' },
-            { src: './img/char/tato/portrait.webp', title: 'Jul 2025 - Yearbook Trade' }
+            { src: './img/char/tato/gallery/202408.webp', title: 'Aug 2024 - Pokemon Trade by Gemah' },
+            { src: './img/char/tato/gallery/202409.webp', title: 'Sep 2024 - Mecha Trade by Franklin' },
+            { src: './img/char/tato/gallery/202410.webp', title: 'Oct 2024 - Halloween Trade by Joey' },
+            { src: './img/char/tato/gallery/202411.webp', title: 'Nov 2024 - Music Albums Trade by Styx' },
+            { src: './img/char/tato/gallery/202412.webp', title: 'Dec 2024 - Winter Trade by Beardgator' },
+            { src: './img/char/tato/gallery/202501.webp', title: 'Jan 2025 - Criminal Activity Trade by Micah' },
+            { src: './img/char/tato/gallery/202502.webp', title: 'Feb 2025 - Space Trade by ChrisTwo' },
+            { src: './img/char/tato/gallery/202503.webp', title: 'Mar 2025 - Beach Episode Trade by Reugen' },
+            { src: './img/char/tato/gallery/202504.webp', title: 'Apr 2025 - High Fantasy Trade by Abner' },
+            { src: './img/char/tato/gallery/202504A.webp', title: 'Apr 2025 - High Fantasy Trade by Abner' },
+            { src: './img/char/tato/gallery/202505.webp', title: 'May 2025 - TCG Trade by Frito' },
+            { src: './img/char/tato/gallery/202505A.webp', title: 'May 2025 - TCG Trade by Frito' },
+            { src: './img/char/tato/gallery/202505B.webp', title: 'May 2025 - TCG Trade by Frito' },
+            { src: './img/char/tato/gallery/202506.webp', title: 'Jun 2025 - Sports Trade by Sol' },
+            { src: './img/char/tato/portrait.webp', title: 'Jul 2025 - Yearbook Trade by Diego' }
         ]
     },
     {
@@ -311,21 +313,22 @@ const characters = [
         superlative: '"Best driver" -Eclair',
         portraits: ['portrait.webp', 'select.webp'],
         gallery: [
-            { src: './img/char/bin/gallery/202408.webp', title: 'Aug 2024 - Pokemon Trade' },
-            { src: './img/char/bin/gallery/202409.webp', title: 'Sep 2024 - Mecha Trade' },
-            { src: './img/char/bin/gallery/202410.webp', title: 'Oct 2024 - Halloween Trade' },
-            { src: './img/char/bin/gallery/202410A.webp', title: 'Oct 2024 - Halloween Trade' },
-            { src: './img/char/bin/gallery/202411.webp', title: 'Nov 2024 - Music Albums Trade' },
-            { src: './img/char/bin/gallery/202412.webp', title: 'Dec 2024 - Winter Trade' },
-            { src: './img/char/bin/gallery/202501.webp', title: 'Jan 2025 - Criminal Activity Trade' },
-            { src: './img/char/bin/gallery/202502.webp', title: 'Feb 2025 - Space Trade' },
-            { src: './img/char/bin/gallery/202504.webp', title: 'Apr 2025 - High Fantasy Trade' },
-            { src: './img/char/bin/gallery/202505.webp', title: 'Jun 2025 - TCG Trade' },
-            { src: './img/char/bin/gallery/202505A.webp', title: 'Jun 2025 - TCG Trade' },
-            { src: './img/char/bin/gallery/202506.webp', title: 'Jun 2025 - Sports Trade' },
-            { src: './img/char/bin/gallery/202506A.webp', title: 'Jun 2025 - Sports Trade' },
-            { src: './img/char/bin/gallery/202506B.webp', title: 'Jun 2025 - Sports Trade' },
-            { src: './img/char/bin/portrait.webp', title: 'Jul 2025 - Yearbook Trade' }
+            { src: './img/char/bin/gallery/202408.webp', title: 'Aug 2024 - Pokemon Trade by Micah' },
+            { src: './img/char/bin/gallery/202409.webp', title: 'Sep 2024 - Mecha Trade by Kaby' },
+            { src: './img/char/bin/gallery/202410.webp', title: 'Oct 2024 - Halloween Trade by Beardgator' },
+            { src: './img/char/bin/gallery/202410A.webp', title: 'Oct 2024 - Halloween Trade by Beardgator' },
+            { src: './img/char/bin/gallery/202411.webp', title: 'Nov 2024 - Music Albums Trade by Frito' },
+            { src: './img/char/bin/gallery/202412.webp', title: 'Dec 2024 - Winter Trade by Sol' },
+            { src: './img/char/bin/gallery/202501.webp', title: 'Jan 2025 - Criminal Activity Trade by Styx' },
+            { src: './img/char/bin/gallery/202502.webp', title: 'Feb 2025 - Space Trade by Joey' },
+            { src: './img/char/bin/gallery/202503.webp', title: 'Mar 2025 - Beach Episode Trade by Arnold' },
+            { src: './img/char/bin/gallery/202504.webp', title: 'Apr 2025 - High Fantasy Trade by Abner' },
+            { src: './img/char/bin/gallery/202505.webp', title: 'Jun 2025 - TCG Trade by Joel' },
+            { src: './img/char/bin/gallery/202505A.webp', title: 'Jun 2025 - TCG Trade by Joel' },
+            { src: './img/char/bin/gallery/202506.webp', title: 'Jun 2025 - Sports Trade by Franklin' },
+            { src: './img/char/bin/gallery/202506A.webp', title: 'Jun 2025 - Sports Trade by Franklin' },
+            { src: './img/char/bin/gallery/202506B.webp', title: 'Jun 2025 - Sports Trade by Franklin' },
+            { src: './img/char/bin/portrait.webp', title: 'Jul 2025 - Yearbook Trade by Eclair' }
         ]
     },
     {
@@ -334,18 +337,18 @@ const characters = [
         superlative: '"Most likely to join a cult" -Sol',
         portraits: ['portrait.webp', 'select.webp'],
         gallery: [
-            { src: './img/char/eonSquabs/gallery/202409.webp', title: 'Sep 2024 - Mecha Trade' },
-            { src: './img/char/eonSquabs/gallery/202409A.webp', title: 'Sep 2024 - Mecha Trade' },
-            { src: './img/char/eonSquabs/gallery/202410.webp', title: 'Oct 2024 - Halloween Trade' },
-            { src: './img/char/eonSquabs/gallery/202410A.webp', title: 'Oct 2024 - Halloween Trade' },
-            { src: './img/char/eonSquabs/gallery/202411.webp', title: 'Nov 2024 - Music Albums Trade' },
-            { src: './img/char/eonSquabs/gallery/202412.webp', title: 'Dec 2024 - Winter Trade' },
-            { src: './img/char/eonSquabs/gallery/202501.webp', title: 'Jan 2025 - Criminal Activity Trade' },
-            { src: './img/char/eonSquabs/gallery/202503.webp', title: 'Mar 2025 - Beach Episode Trade' },
-            { src: './img/char/eonSquabs/gallery/202503A.webp', title: 'Mar 2025 - Beach Episode Trade' },
-            { src: './img/char/eonSquabs/gallery/202505.webp', title: 'Apr 2025 - TCG Trade' },
-            { src: './img/char/eonSquabs/gallery/202506.webp', title: 'Jun 2025 - Sports Trade' },
-            { src: './img/char/eonSquabs/portrait.webp', title: 'Jul 2025 - Yearbook Trade' }
+            { src: './img/char/eonSquabs/gallery/202409.webp', title: 'Sep 2024 - Mecha Trade by Bin' },
+            { src: './img/char/eonSquabs/gallery/202409A.webp', title: 'Sep 2024 - Mecha Trade by Bin' },
+            { src: './img/char/eonSquabs/gallery/202410.webp', title: 'Oct 2024 - Halloween Trade by Bobba' },
+            { src: './img/char/eonSquabs/gallery/202410A.webp', title: 'Oct 2024 - Halloween Trade by Bobba' },
+            { src: './img/char/eonSquabs/gallery/202411.webp', title: 'Nov 2024 - Music Albums Trade by Manny' },
+            { src: './img/char/eonSquabs/gallery/202412.webp', title: 'Dec 2024 - Winter Trade by Abner' },
+            { src: './img/char/eonSquabs/gallery/202501.webp', title: 'Jan 2025 - Criminal Activity Trade by Gemah' },
+            { src: './img/char/eonSquabs/gallery/202503.webp', title: 'Mar 2025 - Beach Episode Trade by Frito' },
+            { src: './img/char/eonSquabs/gallery/202503A.webp', title: 'Mar 2025 - Beach Episode Trade by Frito' },
+            { src: './img/char/eonSquabs/gallery/202505.webp', title: 'May 2025 - TCG Trade by Marcus' },
+            { src: './img/char/eonSquabs/gallery/202506.webp', title: 'Jun 2025 - Sports Trade by Gemah' },
+            { src: './img/char/eonSquabs/portrait.webp', title: 'Jul 2025 - Yearbook Trade by Sol' }
         ]
     },
     {
@@ -354,20 +357,21 @@ const characters = [
         superlative: '"Most likely to start a cult" -Bin',
         portraits: ['portrait.webp', 'select.webp'],
         gallery: [
-            { src: './img/char/frito/gallery/202408.webp', title: 'Aug 2024 - Pokemon Trade' },
-            { src: './img/char/frito/gallery/202409.webp', title: 'Sep 2024 - Mecha Trade' },
-            { src: './img/char/frito/gallery/202410.webp', title: 'Oct 2024 - Halloween Trade' },
-            { src: './img/char/frito/gallery/202410A.gif',  title: 'Oct 2024 - Halloween Trade' },
-            { src: './img/char/frito/gallery/202411.webp', title: 'Nov 2024 - Music Albums Trade' },
-            { src: './img/char/frito/gallery/202412.webp', title: 'Dec 2024 - Winter Trade' },
-            { src: './img/char/frito/gallery/202501.webp', title: 'Jan 2025 - Criminal Activity Trade' },
-            { src: './img/char/frito/gallery/202502.webp', title: 'Feb 2025 - Space Trade' },
-            { src: './img/char/frito/gallery/202503.webp', title: 'Mar 2025 - Beach Episode Trade' },
-            { src: './img/char/frito/gallery/202504.webp', title: 'Apr 2025 - High Fantasy Trade' },
-            { src: './img/char/frito/gallery/202505.webp', title: 'Apr 2025 - TCG Trade' },
-            { src: './img/char/frito/gallery/202505A.webp', title: 'Apr 2025 - TCG Trade' },
-            { src: './img/char/frito/gallery/202506.webp', title: 'Jun 2025 - Sports Trade' },
-            { src: './img/char/frito/portrait.webp', title: 'Jul 2025 - Yearbook Trade' }
+            { src: './img/char/frito/gallery/202408.webp', title: 'Aug 2024 - Pokemon Trade by Joel' },
+            { src: './img/char/frito/gallery/202409.webp', title: 'Sep 2024 - Mecha Trade by Abner' },
+            { src: './img/char/frito/gallery/202410.webp', title: 'Oct 2024 - Halloween Trade by Manny (?)' },
+            { src: './img/char/frito/gallery/202410A.gif', title: 'Oct 2024 - Halloween Trade by Gemah' },
+            { src: './img/char/frito/gallery/202410B.webp', title: 'Oct 2024 - Halloween Trade by Beardgator' },
+            { src: './img/char/frito/gallery/202411.webp', title: 'Nov 2024 - Music Albums Trade by Matt' },
+            { src: './img/char/frito/gallery/202412.webp', title: 'Dec 2024 - Winter Trade by Tato' },
+            { src: './img/char/frito/gallery/202501.webp', title: 'Jan 2025 - Criminal Activity Trade by Franklin' },
+            { src: './img/char/frito/gallery/202502.webp', title: 'Feb 2025 - Space Trade by Eclair' },
+            { src: './img/char/frito/gallery/202503.webp', title: 'Mar 2025 - Beach Episode Trade by Sol' },
+            { src: './img/char/frito/gallery/202504.webp', title: 'Apr 2025 - High Fantasy Trade by Mundo' },
+            { src: './img/char/frito/gallery/202505.webp', title: 'May 2025 - TCG Trade by Eclair' },
+            { src: './img/char/frito/gallery/202505A.webp', title: 'May 2025 - TCG Trade by Eclair' },
+            { src: './img/char/frito/gallery/202506.webp', title: 'Jun 2025 - Sports Trade by Beardgator' },
+            { src: './img/char/frito/portrait.webp', title: 'Jul 2025 - Yearbook Trade by Bin' }
         ]
     },
     {
@@ -379,8 +383,8 @@ const characters = [
         superlative: '"Slurping, rather than spilling the tea"',
         portraits: ['portrait.webp', 'select.webp'],
         gallery: [
-            { src: './img/char/bobba/gallery/202410.webp', title: 'Oct 2024 - Halloween Trade' },
-            { src: './img/char/bobba/gallery/202411.webp', title: 'Nov 2024 - Music Albums Trade' }
+            { src: './img/char/bobba/gallery/202410.webp', title: 'Oct 2024 - Halloween Trade by Kaby' },
+            { src: './img/char/bobba/gallery/202411.webp', title: 'Nov 2024 - Music Albums Trade by Arnold' }
         ]
     },
     {
@@ -389,25 +393,25 @@ const characters = [
         superlative: '"Chill as always"',
         portraits: ['portrait.webp', 'select.webp'],
         gallery: [
-            { src: './img/char/chrisTwo/gallery/202412.webp', title: 'Dec 2024 - Winter Trade' },
-            { src: './img/char/chrisTwo/gallery/202502.webp', title: 'Feb 2025 - Space Trade' },
-            { src: './img/char/chrisTwo/gallery/202503.webp', title: 'Mar 2025 - Beach Episode Trade' }
+            { src: './img/char/chrisTwo/gallery/202412.webp', title: 'Dec 2024 - Winter Trade by Styx' },
+            { src: './img/char/chrisTwo/gallery/202502.webp', title: 'Feb 2025 - Space Trade by Abner' },
+            { src: './img/char/chrisTwo/gallery/202503.webp', title: 'Mar 2025 - Beach Episode Trade by Tato' }
         ]
     },
     {
         id: 'cino',
-        name: 'Cino Bear',
+        name: 'Ruben/Cino Bear',
         superlative: '"Taking it easier this time..."',
         portraits: ['portrait.webp', 'select.webp'],
         gallery: [
-            { src: './img/char/cino/gallery/202409.webp', title: 'Sep 2024 - Mecha Trade' },
-            { src: './img/char/cino/gallery/202409A.webp', title: 'Sep 2024 - Mecha Trade' },
-            { src: './img/char/cino/gallery/202409B.webp', title: 'Sep 2024 - Mecha Trade' },
-            { src: './img/char/cino/gallery/202409C.gif', title: 'Sep 2024 - Mecha Trade' },
+            { src: './img/char/cino/gallery/202409.webp', title: 'Sep 2024 - Mecha Trade by Tato' },
+            { src: './img/char/cino/gallery/202409A.webp', title: 'Sep 2024 - Mecha Trade by Tato' },
+            { src: './img/char/cino/gallery/202409B.webp', title: 'Sep 2024 - Mecha Trade by Tato' },
+            { src: './img/char/cino/gallery/202409C.gif', title: 'Sep 2024 - Mecha Trade by Tato' },
             { src: './img/char/cino/gallery/202410.webp', title: 'Oct 2024 - Halloween Trade' },
-            { src: './img/char/cino/gallery/202411.webp', title: 'Nov 2024 - Music Albums Trade' },
-            { src: './img/char/cino/gallery/202505.webp', title: 'Apr 2025 - TCG Trade' },
-            { src: './img/char/cino/gallery/202505A.webp', title: 'Apr 2025 - TCG Trade' }
+            { src: './img/char/cino/gallery/202411.webp', title: 'Nov 2024 - Music Albums Trade by Marcus' },
+            { src: './img/char/cino/gallery/202505.webp', title: 'May 2025 - TCG Trade by Micah' },
+            { src: './img/char/cino/gallery/202505A.webp', title: 'May 2025 - TCG Trade by Micah' }
         ]
     },
     {
@@ -416,8 +420,8 @@ const characters = [
         superlative: '"Asserting dominance!?"',
         portraits: ['portrait.webp', 'select.webp'],
         gallery: [
-            { src: './img/char/logan/gallery/202502.webp', title: 'Mar 2025 - Beach Episode Trade' },
-            { src: './img/char/logan/gallery/202502A.webp', title: 'Mar 2025 - Beach Episode Trade' }
+            { src: './img/char/logan/gallery/202502.webp', title: 'Mar 2025 - Beach Episode Trade by Gluten' },
+            { src: './img/char/logan/gallery/202502A.webp', title: 'Mar 2025 - Beach Episode Trade by Gluten' }
         ]
     },
     {
@@ -426,12 +430,12 @@ const characters = [
         superlative: '"Simply fabulous"',
         portraits: ['portrait.webp', 'select.webp'],
         gallery: [
-            { src: './img/char/matt/gallery/202410.webp', title: 'Oct 2024 - Halloween Trade' },
-            { src: './img/char/matt/gallery/202410A.webp', title: 'Oct 2024 - Halloween Trade' },
-            { src: './img/char/matt/gallery/202411.webp', title: 'Nov 2024 - Music Albums Trade' },
-            { src: './img/char/matt/gallery/202412.webp', title: 'Dec 2024 - Winter Trade' },
-            { src: './img/char/matt/gallery/202501.webp', title: 'Jan 2025 - Criminal Activity Trade' },
-            { src: './img/char/matt/gallery/202502.webp', title: 'Feb 2025 - Space Trade' }
+            { src: './img/char/matt/gallery/202410.webp', title: 'Oct 2024 - Halloween Trade by Joel' },
+            { src: './img/char/matt/gallery/202410A.webp', title: 'Oct 2024 - Halloween Trade by Joel' },
+            { src: './img/char/matt/gallery/202411.webp', title: 'Nov 2024 - Music Albums Trade by Franklin' },
+            { src: './img/char/matt/gallery/202412.webp', title: 'Dec 2024 - Winter Trade by Manny' },
+            { src: './img/char/matt/gallery/202501.webp', title: 'Jan 2025 - Criminal Activity Trade by Joey' },
+            { src: './img/char/matt/gallery/202502.webp', title: 'Feb 2025 - Space Trade by Micah' }
         ]
     },
     {
@@ -440,11 +444,11 @@ const characters = [
         superlative: '"Backstabbing in Souls games when you\'re not looking"',
         portraits: ['portrait.webp', 'select.webp'],
         gallery: [
-            { src: './img/char/mundo/gallery/202408.webp', title: 'Aug 2024 - Pokemon Trade' },
-            { src: './img/char/mundo/gallery/202410.webp', title: 'Oct 2024 - Halloween Trade' },
-            { src: './img/char/mundo/gallery/202410A.webp', title: 'Oct 2024 - Halloween Trade' },
-            { src: './img/char/mundo/gallery/202504.webp', title: 'Apr 2025 - High Fantasy Trade' },
-            { src: './img/char/mundo/gallery/202504A.webp', title: 'Apr 2025 - High Fantasy Trade' }
+            { src: './img/char/mundo/gallery/202408.webp', title: 'Aug 2024 - Pokemon Trade by Bin' },
+            { src: './img/char/mundo/gallery/202410.webp', title: 'Oct 2024 - Halloween Trade by Micah' },
+            { src: './img/char/mundo/gallery/202410A.webp', title: 'Oct 2024 - Halloween Trade by Micah' },
+            { src: './img/char/mundo/gallery/202504.webp', title: 'Apr 2025 - High Fantasy Trade by Beardgator' },
+            { src: './img/char/mundo/gallery/202504A.webp', title: 'Apr 2025 - High Fantasy Trade by Beardgator' }
         ]
     },
     {
@@ -453,8 +457,18 @@ const characters = [
         superlative: '"Tales have that he appears every blue moon..."',
         portraits: ['portrait.webp', 'select.webp'],
         gallery: [
-            { src: './img/char/platano/gallery/202411.webp', title: 'Nov 2024 - Music Albums Trade' },
-            { src: './img/char/platano/gallery/202412.webp', title: 'Dec 2024 - Winter Trade' }
+            { src: './img/char/platano/gallery/202411.webp', title: 'Nov 2024 - Music Albums Trade by Bin' },
+            { src: './img/char/platano/gallery/202412.webp', title: 'Dec 2024 - Winter Trade by Joey' }
+            { src: './img/char/platano/gallery/202503.webp', title: 'Mar 2025 - Beach Episode Trade by Zack' }
+        ]
+    },
+    {
+         id: 'reugen',
+        name: 'Ruegen',
+        superlative: '""',
+        portraits: ['portrait.webp', 'select.webp'],
+        gallery: [
+            { src: './img/char/reugen/gallery/202411.webp', title: 'Mar 2025 - Beach Episode Trade by Franklin' }
         ]
     },
     {
@@ -463,12 +477,12 @@ const characters = [
         superlative: '"Crashing in from the sea!"',
         portraits: ['portrait.webp', 'select.webp'],
         gallery: [
-            { src: './img/char/styx/gallery/202408.webp', title: 'Aug 2024 - Pokemon Trade' },
-            { src: './img/char/styx/gallery/202408A.webp', title: 'Aug 2024 - Pokemon Trade' },
-            { src: './img/char/styx/gallery/202410.gif',  title: 'Oct 2024 - Halloween Trade' },
-            { src: './img/char/styx/gallery/202411.webp', title: 'Nov 2024 - Music Albums Trade' },
-            { src: './img/char/styx/gallery/202412.webp', title: 'Dec 2024 - Winter Trade' },
-            { src: './img/char/styx/gallery/202501.webp', title: 'Jan 2025 - Criminal Activity Trade' }
+            { src: './img/char/styx/gallery/202408.webp', title: 'Aug 2024 - Pokemon Trade by Frito' },
+            { src: './img/char/styx/gallery/202408A.webp', title: 'Aug 2024 - Pokemon Trade by Frito' },
+            { src: './img/char/styx/gallery/202410.gif',  title: 'Oct 2024 - Halloween Trade by Gemah' },
+            { src: './img/char/styx/gallery/202411.webp', title: 'Nov 2024 - Music Albums Trade by Kaby' },
+            { src: './img/char/styx/gallery/202412.webp', title: 'Dec 2024 - Winter Trade by Gemah' },
+            { src: './img/char/styx/gallery/202501.webp', title: 'Jan 2025 - Criminal Activity Trade by Eclair' }
         ]
     },
     {
@@ -477,10 +491,10 @@ const characters = [
         superlative: '"Playing a sweet tune"',
         portraits: ['portrait.webp', 'select.webp'],
         gallery: [
-            { src: './img/char/tonne/gallery/202410.webp', title: 'Oct 2024 - Halloween Trade' },
-            { src: './img/char/tonne/gallery/202410A.webp', title: 'Oct 2024 - Halloween Trade' },
-            { src: './img/char/tonne/gallery/202411.webp', title: 'Nov 2024 - Music Albums Trade' },
-            { src: './img/char/tonne/gallery/202501.webp', title: 'Jan 2025 - Criminal Activity Trade' }
+            { src: './img/char/tonne/gallery/202410.webp', title: 'Oct 2024 - Halloween Trade by Styx' },
+            { src: './img/char/tonne/gallery/202410A.webp', title: 'Oct 2024 - Halloween Trade by Styx' },
+            { src: './img/char/tonne/gallery/202411.webp', title: 'Nov 2024 - Music Albums Trade by Eclair' },
+            { src: './img/char/tonne/gallery/202501.webp', title: 'Jan 2025 - Criminal Activity Trade by Frito' }
         ]
     },
     {
@@ -489,7 +503,7 @@ const characters = [
         superlative: '"Looking bright as usual"',
         portraits: ['portrait.webp', 'select.webp'],
         gallery: [
-            { src: './img/char/yeesht/gallery/202411.webp', title: 'Nov 2024 - Music Albums Trade' }
+            { src: './img/char/yeesht/gallery/202411.webp', title: 'Nov 2024 - Music Albums Trade by Gluten' }
         ]
     },
     {
@@ -498,7 +512,7 @@ const characters = [
         superlative: '"Last but not the least"',
         portraits: ['portrait.webp', 'select.webp'],
         gallery: [
-            { src: './img/char/zack/gallery/202503.webp', title: 'Mar 2025 - Beach Episode Trade' }
+            { src: './img/char/zack/gallery/202503.webp', title: 'Mar 2025 - Beach Episode Trade by Kaby' }
         ]
     }
 ];
